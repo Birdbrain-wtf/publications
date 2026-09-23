@@ -2,6 +2,11 @@
 
 All notable changes to this publication are recorded here. Released editions are immutable and identified by their Git tag and commit SHA.
 
+## 0.1.5 | 2026-09-23
+
+- Disclosures now say Kreivo has no token of its own and uses KSM as its fee token.
+- Release tag: `publication/independent-kusama/v0.1.5`.
+
 ## 0.1.4 | 2026-09-23
 
 - Bounty 01 is now on chain as Referendum 665 (Small Tipper, 8 KSM). §4 records the submission, the zero curator fee, the keyless beneficiary account and why it is a bounty rather than a treasury spend.
