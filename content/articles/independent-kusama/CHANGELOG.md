@@ -2,6 +2,11 @@
 
 All notable changes to this publication are recorded here. Released editions are immutable and identified by their Git tag and commit SHA.
 
+## 0.1.7 | 2026-09-23
+
+- Disclosures clarified: Decent Partners' commercial interest in dUSD is through its arrangements with Brale, it is an investor in Bloque, and it commissioned Four To The Floor, itself a collective on Kreivo.
+- Release tag: `publication/independent-kusama/v0.1.7`.
+
 ## 0.1.6 | 2026-09-23
 
 - Disclosures name the Web3 Foundation's estimated holding of about 7% of KAB alongside Decent Partners' 9%.

@@ -15,7 +15,7 @@ tags:
   - jam
 status: published
 publicationType: position-paper
-edition: 0.1.6
+edition: 0.1.7
 license: CC-BY-4.0
 responds_to: https://github.com/sdfinst/publications/blob/a445bba7ab5a801e3b85168551dfa8b1e5021bc2/content/articles/proposal-kusama-future-jam-prime/index.md
 ---
@@ -27,7 +27,7 @@ responds_to: https://github.com/sdfinst/publications/blob/a445bba7ab5a801e3b8516
 
 **Status and purpose.** This paper responds to *[A Proposal for a Kusama Future on JAM Prime](https://github.com/sdfinst/publications/blob/a445bba7ab5a801e3b85168551dfa8b1e5021bc2/content/articles/proposal-kusama-future-jam-prime/index.md)* (Emiel Sebastiaan and Arief Ernst, SDFI BV, 17 September 2026), read at revision a445bba, and is offered into the same discussion window, which closes on 16 October 2026. It proposes a direction for KSM DAO to weigh against JAM Prime. Appendix A sets out every figure and where it was read. Funding, implementation and any change to issuance or the validator set need their own referenda.
 
-**Disclosures.** We are a collective on Kreivo, one of Kusama's 12 non-system parachains. Kreivo has no token of its own and uses KSM as its fee token, and §5.4 of the JAM Prime paper prices our chain out. We hold KSM and buy more of it to pay for members. Several of the mechanisms cited here (the onboarding subsidy in RFC-001, the metered query service, the Kreivo memberships) are ones we built or use, and we say which are live and which are proposed as we go. Bounty 01, described in §4, is ours. [Decent Partners](https://www.decent.partners), which supports Birdbrain and funds its deposits, has a commercial interest in dUSD through its arrangements with [Bloque](https://bloque.sh) and [Brale](https://brale.xyz), and is the largest holder of KAB, at about 9% of supply, alongside the [Web3 Foundation](https://web3.foundation) (W3F), which we estimate holds about 7%. AI tools were used to assist with research, drafting and editing. We take full responsibility for the arguments and figures.
+**Disclosures.** We are a collective on Kreivo, one of Kusama's 12 non-system parachains. Kreivo has no token of its own and uses KSM as its fee token, and §5.4 of the JAM Prime paper prices our chain out. We hold KSM and buy more of it to pay for members. Several of the mechanisms cited here (the onboarding subsidy in RFC-001, the metered query service, the Kreivo memberships) are ones we built or use, and we say which are live and which are proposed as we go. Bounty 01, described in §4, is ours. [Decent Partners](https://www.decent.partners), which supports Birdbrain and funds its deposits, has a commercial interest in dUSD through its arrangements with [Brale](https://brale.xyz), is an investor in [Bloque](https://bloque.sh), and commissioned [Four To The Floor](https://fttf.decent.partners), a music film series turned platform that keeps the artists, the performances and the room they were made in together, owned by the people who make them. Four To The Floor is also a collective on Kreivo in its own right, registered on 19 September, and is beginning to onboard its wider network of creators and talent. Decent Partners is also the largest holder of KAB, at about 9% of supply, alongside the [Web3 Foundation](https://web3.foundation) (W3F), which we estimate holds about 7%. AI tools were used to assist with research, drafting and editing. We take full responsibility for the arguments and figures.
 
 ## Abstract
 
