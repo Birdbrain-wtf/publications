@@ -2,6 +2,12 @@
 
 All notable changes to this publication are recorded here. Released editions are immutable and identified by their Git tag and commit SHA.
 
+## 0.1.2 | 2026-09-23
+
+- The six parts now start with the individual rather than the group: the mechanism captures what each person brings and what they make together.
+- The record covers each person's work as well as each group's.
+- Release tag: `publication/independent-kusama/v0.1.2`.
+
 ## 0.1.1 | 2026-09-23
 
 - Adds identity to what a group owns, as a sixth part of the network alongside membership, record, permission, treasury and governance.
