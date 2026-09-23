@@ -2,7 +2,7 @@
 id: independent-kusama
 slug: independent-kusama
 title: "An Independent Kusama: a counter-proposal"
-summary: A position paper proposing that Kusama become the network where groups of people grow their collective intelligence, funded from what Kusama already has, with security sized to demand and checkpoints that say when to reopen cohabitation.
+summary: A position paper proposing that Kusama become the network where anyone can join a group early, grow a collective intelligence it owns and share in what its use earns, funded from what Kusama already has, with security sized to demand and checkpoints that say when to reopen cohabitation.
 authors:
   - Birdbrain
 published: 2026-09-23
@@ -15,19 +15,19 @@ tags:
   - jam
 status: published
 publicationType: position-paper
-edition: 0.1.8
+edition: 0.1.9
 license: CC-BY-4.0
 responds_to: https://github.com/sdfinst/publications/blob/a445bba7ab5a801e3b85168551dfa8b1e5021bc2/content/articles/proposal-kusama-future-jam-prime/index.md
 ---
 # An Independent Kusama: a counter-proposal
 
-**A position paper proposing that Kusama become the network where groups of people grow their collective intelligence, funded from what Kusama already has rather than by paying Polkadot.**
+**A position paper proposing that Kusama become the network where anyone can join a group early, grow a collective intelligence it owns and share in what its use earns, funded from what Kusama already has rather than by paying Polkadot.**
 
 *23 September 2026, by [Birdbrain](https://birdbrain.wtf), a collective on [Kreivo](https://github.com/virto-network/kreivo).*
 
 **Status and purpose.** This paper responds to *[A Proposal for a Kusama Future on JAM Prime](https://github.com/sdfinst/publications/blob/a445bba7ab5a801e3b85168551dfa8b1e5021bc2/content/articles/proposal-kusama-future-jam-prime/index.md)* (Emiel Sebastiaan and Arief Ernst, SDFI BV, 17 September 2026), read at revision a445bba, and is offered into the same discussion window, which closes on 16 October 2026. It proposes a direction for KSM DAO to weigh against JAM Prime. Appendix A sets out every figure and where it was read. Funding, implementation and any change to issuance or the validator set need their own referenda.
 
-**Disclosures.** We are a collective on Kreivo, one of Kusama's 12 non-system parachains. Kreivo has no token of its own and uses KSM as its fee token, and §5.4 of the JAM Prime paper prices our chain out. We hold KSM and buy more of it to pay for members. Several of the mechanisms cited here (the onboarding subsidy in RFC-001, the metered query service, the Kreivo memberships) are ones we built or use, and we say which are live and which are proposed as we go. Bounty 01, described in §4, is ours. [Decent Partners](https://www.decent.partners), which supports Birdbrain and funds its deposits, has a commercial interest in dUSD through its arrangements with [Brale](https://brale.xyz), is an investor in [Bloque](https://bloque.sh), and commissioned [Four To The Floor](https://fttf.decent.partners), a music film series turned platform that keeps the artists, the performances and the room they were made in together, owned by the people who make them. Four To The Floor is also a collective on Kreivo in its own right, community 444, registered on 19 September, and is preparing to onboard its wider network of creators and talent. Decent Partners is also the largest holder of KAB, at about 9% of supply, alongside the [Web3 Foundation](https://web3.foundation) (W3F), which we estimate holds about 7%. AI tools were used to assist with research, drafting and editing. We take full responsibility for the arguments and figures.
+**Disclosures.** We are a collective on Kreivo, one of Kusama's 12 non-system parachains. Kreivo has no token of its own and uses KSM as its fee token, and §5.4 of the JAM Prime paper prices our chain out. We hold KSM and buy more of it to pay for members. Several of the mechanisms cited here (the onboarding subsidy in RFC-001, the metered query service, the Kreivo memberships) are ones we built or use, and we say which are live and which are proposed as we go. Bounty 01, described in §4, is ours. [Decent Partners](https://www.decent.partners), which supports Birdbrain and funds its deposits, has a commercial interest in dUSD through its arrangements with [Brale](https://brale.xyz), is an investor in [Bloque](https://bloque.sh), and commissioned [Four To The Floor](https://fttf.decent.partners), a music film series turned platform that keeps the artists, the performances and the room they were made in together, owned by the people who make them. Four To The Floor is also a collective on Kreivo in its own right, community 444, registered on 19 September, and is preparing to onboard its wider network of creators and talent. AI tools were used to assist with research, drafting and editing. We take full responsibility for the arguments and figures.
 
 ## Abstract
 
@@ -35,7 +35,7 @@ Kusama should be the network where groups of people grow their collective intell
 
 **We propose keeping the direction KSM DAO already voted for in [#573](https://kusama.subsquare.io/referenda/573), a light and independent JAM, and funding it from what Kusama already has rather than by paying Polkadot.** Right-size security to demand. Give staked KSM a job on Kusama's own validator set. Stop selling the treasury and spend its surplus on members. Build the route from real revenue to the security budget during the runway, and measure it. If it fails the measures, KSM DAO goes to DOT DAO later with numbers rather than with a request.
 
-Most of the parts are already on Kusama, built by several teams, and a first 8 KSM test of spending treasury money only on people a live session can vouch for is now on chain as [Referendum 665](https://kusama.subsquare.io/referenda/665).
+Most of the parts are already on Kusama, built by several teams, and a first 8 KSM test of spending treasury money only on people a live session can vouch for is now on chain as [Referendum 665](https://kusama.subsquare.io/referenda/665). Demand comes from people taking part in groups early and from the use of what those groups make, not from selling claims ahead of the work.
 
 ## What Kusama is for
 
@@ -79,7 +79,6 @@ We call a collective built this way a creative conspiracy, from the Latin *consp
 5. **Contribution is accounted for.** [ContribNet](https://forum.polkadot.network/t/17630), built by its own team on Kusama Asset Hub and announced in April 2026, pays open-source contributors from a project treasury in proportion to contribution points, with review and fork-with-snapshot as its defence against capture. It is the closest thing on Kusama to the contribution layer this proposal needs. We run a read-only front end over it and have a project registered there. Its builders describe it as unaudited.
 6. **Use of the record is paid for.** Our query meter sells rows from a collective's record by the query. Its design follows [select402](https://select402.com), Karim Jedda's pay-per-query data service, which showed that an HTTP 402 payment ([x402](https://x402.org)) can settle natively from a Polkadot-style account. We changed two things, charging for rows delivered rather than scanned and refusing a second claim against one transfer, and offered both back upstream.
 7. **Payments settle in a stablecoin.** dUSD is a dollar stablecoin on Kusama Asset Hub (asset 50000002), issued through [Brale](https://brale.xyz) and used as the settlement asset of [Bloque](https://bloque.sh)'s payment network. Fees can be paid in dUSD, so a buyer needs no KSM. The slot is swappable: the meter needs an asset it can check on chain, and a ksmUSD would fit it.
-8. **A long-term claim on the record.** KAB is the token of [Kabocha](https://github.com/kabocha-network), a Kusama parachain launched in 2022, incubated by the [Edgeware](https://github.com/edgeware-network) community with Ramsey (decentration) as technical steward, later maintained by JelliedOwl, and now by us. The design we are working on mints KAB as contributions in a collective's graph mature, with a fixed share of every mint reserved for the connections between works, so whoever connects things is paid as well as whoever makes them. The Kabocha chain has been dormant by choice since 30 May 2026, and none of the minting exists.
 
 The proof points, as they stand:
 
@@ -94,7 +93,6 @@ The proof points, as they stand:
 | Paid queries | Birdbrain, after select402 | Seven settled dUSD payments, all between our own keys | Priced, no outside buyer yet |
 | dUSD | Brale and Bloque | Asset 50000002 on Asset Hub | Live |
 | Attendance roots | Birdbrain, [checker public](https://github.com/Birdbrain-wtf/attendance-checker) | One session root anchored, 17 September 2026. Bounty 01 in deciding as [Referendum 665](https://kusama.subsquare.io/referenda/665) | Experimental (§4) |
-| KAB | Kabocha, from the Edgeware community | 77.45m KAB on a dormant chain | Proposed |
 
 Two gaps matter most. Nobody outside our own keys has paid for a query yet, and the permission layer, the part that lets a group decide what its record may be used for, is designed and not yet running.
 
@@ -111,6 +109,18 @@ Graduation is a vote by the group, not a gift from us. The test of the process i
 Two things make this an on-ramp for Kusama as well as for us. The first members come from the group's own network, the artists, crew and audience it already has, and every passkey action on its door enrols that person as a member, so onboarding people and onboarding a collective are one motion. And each rung puts more of the group's activity on Kusama: its memberships, its treasury, its record and its fees.
 
 [Four To The Floor](https://fttf.decent.partners) is the worked case. It is on the first rung, registered as community 444 on Kreivo on 19 September, and is preparing to onboard its network of artists, directors and crew. It has not graduated, and no group has yet.
+
+## Where demand comes from
+
+Security can be paid for (§2). What the JAM Prime paper cannot yet find, and what its Position 9 asks, is a reason for people to want what Kusama sells. Memberships are one reason, and they stop growing when people stop joining. A larger one comes from the way the internet has let people take part in things early.
+
+Each wave kept the same promise and broke it in a different place. Crowdfunding let anyone back a project before it existed, and proved demand, but backers got a product or a thank-you rather than a stake in what they helped make. The ICOs of 2017 gave early supporters a liquid token, often before there was a working system beneath it. Kusama's own parachain crowdloans were the largest on-chain version: in June 2021 more than 15,000 people [locked over 500,000 KSM](https://www.accessnewswire.com/newsroom/en/business-and-professional-services/karura-wins-first-kusama-parachain-auction-with-over-500-000-ksm-652689), about 5.5% of supply, behind one chain's bid for a slot. NFTs made provenance legible and sold access to institutions that did not exist yet. DAOs showed that strangers could govern together across borders, and that a token vote can move faster than responsibility.
+
+Both halves of that history matter. People will commit early and in large numbers to something they want to exist, and Kusama has already seen it happen. And each wave failed at the same point: a claim could be sold faster than the work behind it was built. That is a fault in the design rather than in the people, and a different rule gives a different result.
+
+We propose Kusama points that appetite at the work itself. Taking part early means joining a group, contributing to its record and being attributed in it, not buying a claim on its future. Each step uses KSM: a membership deposit to join, a treasury the group holds, fees when value moves, and paid queries when someone draws on what the group knows (§5). Demand then grows with the number of groups doing real work and with the use of what they make, rather than with what someone expects to sell on.
+
+The crowdloan KSM backed slots rather than use. The 12 non-system parachains still on Kusama are where that use would happen, and §5.4 of the JAM Prime paper prices them out. We are not proposing a token sale, and nothing in this paper depends on one.
 
 ## 1. Answer Rom1's question first: independence
 
@@ -229,7 +239,6 @@ Every figure below was read on 23 September 2026 unless marked otherwise, and ea
 | CS33 attendance root | `0xcc04a401…d686a0` | Remark at Asset Hub block 21,513,860, 17 September 2026, extrinsic `0x0a04550e…80dd` |
 | Birdbrain's graph | Data registry `0x04c4ec8c4d6eaa7982748f3d7b0cc1227ee1cc53` | Asset Hub, deployed at block 20,375,485, 18 August 2026 |
 | Paid queries | Seven settled dUSD payments | Asset Hub, 21 August to 19 September 2026, all between our own keys |
-| KAB supply | 77,449,609 KAB | Kabocha state, read 11 August 2026 |
 | Validators for #573 | about 96 | The JAM Prime paper's ratio of 3 validators per core, applied to #573's 32 cores |
 | Security bill for #573 | US$3.46m a year | 96 × US$3,000 a validator-month × 12, the JAM Prime paper's own benchmark |
 | Gap at 2.4% issuance | about US$1.46m a year | US$3.46m less issuance of about US$2.0m |
