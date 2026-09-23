@@ -15,7 +15,7 @@ tags:
   - jam
 status: published
 publicationType: position-paper
-edition: 0.1.3
+edition: 0.1.4
 license: CC-BY-4.0
 responds_to: https://github.com/sdfinst/publications/blob/a445bba7ab5a801e3b85168551dfa8b1e5021bc2/content/articles/proposal-kusama-future-jam-prime/index.md
 ---
@@ -35,7 +35,7 @@ Kusama should be the network where groups of people grow their collective intell
 
 **We propose keeping the direction KSM DAO already voted for in [#573](https://kusama.subsquare.io/referenda/573), a light and independent JAM, and funding it from what Kusama already has rather than by paying Polkadot.** Right-size security to demand. Give staked KSM a job on Kusama's own validator set. Stop selling the treasury and spend its surplus on members. Build the route from real revenue to the security budget during the runway, and measure it. If it fails the measures, KSM DAO goes to DOT DAO later with numbers rather than with a request.
 
-Most of the parts are already on Kusama, built by several teams, and a first 8 KSM test of spending treasury money only on people a live session can vouch for is ready to submit.
+Most of the parts are already on Kusama, built by several teams, and a first 8 KSM test of spending treasury money only on people a live session can vouch for is now on chain as [Referendum 665](https://kusama.subsquare.io/referenda/665).
 
 ## What Kusama is for
 
@@ -93,7 +93,7 @@ The proof points, as they stand:
 | Contribution accounting | ContribNet | Live projects on Asset Hub, ours among them | Live, unaudited |
 | Paid queries | Birdbrain, after select402 | Seven settled dUSD payments, all between our own keys | Priced, no outside buyer yet |
 | dUSD | Brale and Bloque | Asset 50000002 on Asset Hub | Live |
-| Attendance roots | Birdbrain, [checker public](https://github.com/Birdbrain-wtf/attendance-checker) | One session root anchored, 17 September 2026 | Experimental (§4) |
+| Attendance roots | Birdbrain, [checker public](https://github.com/Birdbrain-wtf/attendance-checker) | One session root anchored, 17 September 2026. Bounty 01 in deciding as [Referendum 665](https://kusama.subsquare.io/referenda/665) | Experimental (§4) |
 | KAB | Kabocha, from the Edgeware community | 77.45m KAB on a dormant chain | Proposed |
 
 Two gaps matter most. Nobody outside our own keys has paid for a query yet, and the permission layer, the part that lets a group decide what its record may be used for, is designed and not yet running.
@@ -139,13 +139,13 @@ This answers Position 9 of the paper, which asks why anyone would acquire, use o
 
 ### The first test: pay only for people the room can vouch for
 
-Before asking for 30,000 KSM, we are asking for 8. Bounty 01 is a Small Tipper bounty (track 30) on Asset Hub's multi-asset bounties pallet, and it funds a membership only for someone a live session can vouch for, and only once per person.
+Before asking for 30,000 KSM, we are asking for 8. Bounty 01 is live as [Referendum 665](https://kusama.subsquare.io/referenda/665) on the Small Tipper track (30), submitted on 23 September 2026 and now in its seven-day deciding period. It uses Asset Hub's multi-asset bounties pallet, and it funds a membership only for someone a live session can vouch for, and only once per person. The curator is Birdbrain's operator account at a fee of zero, and every award lands in the community's own account on Asset Hub, which no key controls and only a vote inside the community can spend. Our deposits are refundable, and a failed referendum forfeits nothing to the treasury. It is a bounty rather than a treasury spend because the curator role is the only place in Kusama's treasury machinery that can hold a spending condition.
 
 Chaos Sessions are Birdbrain's open weekly calls, 34 so far, and people sign in with a passkey, so every session has a sign-in log and everyone on the call can see who else is there. After a session the attendees become a Merkle root, written to Asset Hub before any payout against it. Each leaf binds a person, their account and the session. A payout is due only if the root was on chain first, the leaf is in it, the account holds a membership minted after the session, and the bounty has not already funded that person. The curator's only judgement is whether the [published checker](https://github.com/Birdbrain-wtf/attendance-checker) passes, and anyone can rerun it and dispute the answer.
 
-The once-per-person rule comes from our own register. Birdbrain holds 27 memberships across 26 addresses, which belong to about eleven people, and every one was a valid passkey that had never held a membership. So the plan burns all 27 and rebuilds one per person. The first root, for CS33, is anchored at Asset Hub block 21,513,860 on 17 September 2026. Nine people were in the room and four are eligible: three were guests without a passkey, and two held only accounts we hold keys for, so paying against them would be paying ourselves. The whole sequence passes 12 of 12 steps against live state in dry-run and on a fork of Asset Hub. It has not yet been submitted.
+The once-per-person rule comes from our own register. At Kreivo block 38,961,176 Birdbrain held 37 memberships across 36 accounts. Thirty-three belong to 15 people we can name, one to an account we have not matched, and three to test identities. Seven people hold more than one, and one holds nine. Failed sign-ins minted new memberships and added nobody to the room, and nothing in the register could say which accounts were the same person. So before the first award all 37 are burned, the list of what was burned is published, and memberships are rebuilt at one per person. The first root, for CS33, was anchored at Asset Hub block 21,513,860 on 17 September 2026, before the referendum existed, so it could not have been chosen to fit a payout. Eight people were in the room and four have leaves: two held memberships only on accounts we hold keys for, so paying against them would be paying ourselves, and two came in on guest links without a passkey. CS34's root is built and will be anchored before any award is made against it. Four or five eligible people a session, out of the eight to eleven who come, is the honest rate today. The whole sequence passes 12 of 12 steps in a read-only rehearsal against live state, and has run end to end on a copy of Asset Hub, with the operator's real balance, to a 2.5 KSM payout.
 
-The check is falsifiable, not trustless. The roster is witnessed by the room, not proved. It is built so that Parity's personhood work, `pallet-people`, can replace the once-per-person check when it is available. Parity's approach builds personhood from a recurring recognition game, and Chaos Sessions are already one. This bounty tests the settlement half: releasing treasury money against recognition rather than against a curator's confidence. If it holds at 8 KSM, it is the formula the onboarding facility would run at scale.
+The check is falsifiable, not trustless. The roster is witnessed by the room, not proved. It is built so that Parity's personhood work, `pallet-people`, can replace the once-per-person check when it is available. Parity's approach builds personhood from a recurring recognition game, and Chaos Sessions are already one. This bounty tests the settlement half: releasing treasury money against recognition rather than against a curator's confidence. If it holds at 8 KSM, it is the formula the onboarding facility would run at scale, and any bounty that pays per verified person doing a verifiable thing can take the same shape. If it does not, it fails in public for 8 KSM.
 
 ## 5. Revenue: build the route during the runway
 
@@ -210,7 +210,8 @@ Every figure below was read on 23 September 2026 unless marked otherwise, and ea
 | Issuance to staking | about 1.34m KSM a year | About 918 KSM per era, four six-hour eras a day |
 | KSM price | US$4.42 | CoinGecko |
 | Kreivo | 21 communities, 707 membership items, treasury 497.7 KSM | Kreivo state |
-| Birdbrain register | 27 memberships across 26 addresses, about eleven people | Kreivo collection 1786, read 21 September 2026 |
+| Birdbrain register | 37 memberships across 36 accounts, 15 named people | Kreivo collection 1786 at block 38,961,176, as set out in Referendum 665 |
+| Referendum 665 | Bounty 01, 8 KSM, Small Tipper track 30, `multiAssetBounties.fundBounty`, curator fee zero | Submitted 23 September 2026, Asset Hub block 21,738,560. [Subsquare](https://kusama.subsquare.io/referenda/665) |
 | CS33 attendance root | `0xcc04a401…d686a0` | Remark at Asset Hub block 21,513,860, 17 September 2026, extrinsic `0x0a04550e…80dd` |
 | Birdbrain's graph | Data registry `0x04c4ec8c4d6eaa7982748f3d7b0cc1227ee1cc53` | Asset Hub, deployed at block 20,375,485, 18 August 2026 |
 | Paid queries | Seven settled dUSD payments | Asset Hub, 21 August to 19 September 2026, all between our own keys |

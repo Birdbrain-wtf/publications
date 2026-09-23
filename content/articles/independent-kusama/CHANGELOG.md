@@ -2,6 +2,13 @@
 
 All notable changes to this publication are recorded here. Released editions are immutable and identified by their Git tag and commit SHA.
 
+## 0.1.4 | 2026-09-23
+
+- Bounty 01 is now on chain as Referendum 665 (Small Tipper, 8 KSM). §4 records the submission, the zero curator fee, the keyless beneficiary account and why it is a bounty rather than a treasury spend.
+- Updates the Birdbrain register to 37 memberships across 36 accounts and 15 named people, at Kreivo block 38,961,176, replacing the earlier estimate of 27 across 26 and about eleven people. Corrects the CS33 count to eight people, four with leaves.
+- Adds Referendum 665 to Appendix A and the proof points.
+- Release tag: `publication/independent-kusama/v0.1.4`.
+
 ## 0.1.3 | 2026-09-23
 
 - Adds "How a conspiracy is put together": the eight components in the order they are assembled, who built each (Virto, Parity, Fangorn, ContribNet, Karim Jedda's select402, Brale and Bloque, Kabocha and the Edgeware community), and a table of proof points with their status.
