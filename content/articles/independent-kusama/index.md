@@ -15,7 +15,7 @@ tags:
   - jam
 status: published
 publicationType: position-paper
-edition: 0.1.7
+edition: 0.1.8
 license: CC-BY-4.0
 responds_to: https://github.com/sdfinst/publications/blob/a445bba7ab5a801e3b85168551dfa8b1e5021bc2/content/articles/proposal-kusama-future-jam-prime/index.md
 ---
@@ -27,7 +27,7 @@ responds_to: https://github.com/sdfinst/publications/blob/a445bba7ab5a801e3b8516
 
 **Status and purpose.** This paper responds to *[A Proposal for a Kusama Future on JAM Prime](https://github.com/sdfinst/publications/blob/a445bba7ab5a801e3b85168551dfa8b1e5021bc2/content/articles/proposal-kusama-future-jam-prime/index.md)* (Emiel Sebastiaan and Arief Ernst, SDFI BV, 17 September 2026), read at revision a445bba, and is offered into the same discussion window, which closes on 16 October 2026. It proposes a direction for KSM DAO to weigh against JAM Prime. Appendix A sets out every figure and where it was read. Funding, implementation and any change to issuance or the validator set need their own referenda.
 
-**Disclosures.** We are a collective on Kreivo, one of Kusama's 12 non-system parachains. Kreivo has no token of its own and uses KSM as its fee token, and §5.4 of the JAM Prime paper prices our chain out. We hold KSM and buy more of it to pay for members. Several of the mechanisms cited here (the onboarding subsidy in RFC-001, the metered query service, the Kreivo memberships) are ones we built or use, and we say which are live and which are proposed as we go. Bounty 01, described in §4, is ours. [Decent Partners](https://www.decent.partners), which supports Birdbrain and funds its deposits, has a commercial interest in dUSD through its arrangements with [Brale](https://brale.xyz), is an investor in [Bloque](https://bloque.sh), and commissioned [Four To The Floor](https://fttf.decent.partners), a music film series turned platform that keeps the artists, the performances and the room they were made in together, owned by the people who make them. Four To The Floor is also a collective on Kreivo in its own right, registered on 19 September, and is beginning to onboard its wider network of creators and talent. Decent Partners is also the largest holder of KAB, at about 9% of supply, alongside the [Web3 Foundation](https://web3.foundation) (W3F), which we estimate holds about 7%. AI tools were used to assist with research, drafting and editing. We take full responsibility for the arguments and figures.
+**Disclosures.** We are a collective on Kreivo, one of Kusama's 12 non-system parachains. Kreivo has no token of its own and uses KSM as its fee token, and §5.4 of the JAM Prime paper prices our chain out. We hold KSM and buy more of it to pay for members. Several of the mechanisms cited here (the onboarding subsidy in RFC-001, the metered query service, the Kreivo memberships) are ones we built or use, and we say which are live and which are proposed as we go. Bounty 01, described in §4, is ours. [Decent Partners](https://www.decent.partners), which supports Birdbrain and funds its deposits, has a commercial interest in dUSD through its arrangements with [Brale](https://brale.xyz), is an investor in [Bloque](https://bloque.sh), and commissioned [Four To The Floor](https://fttf.decent.partners), a music film series turned platform that keeps the artists, the performances and the room they were made in together, owned by the people who make them. Four To The Floor is also a collective on Kreivo in its own right, community 444, registered on 19 September, and is preparing to onboard its wider network of creators and talent. Decent Partners is also the largest holder of KAB, at about 9% of supply, alongside the [Web3 Foundation](https://web3.foundation) (W3F), which we estimate holds about 7%. AI tools were used to assist with research, drafting and editing. We take full responsibility for the arguments and figures.
 
 ## Abstract
 
@@ -97,6 +97,20 @@ The proof points, as they stand:
 | KAB | Kabocha, from the Edgeware community | 77.45m KAB on a dormant chain | Proposed |
 
 Two gaps matter most. Nobody outside our own keys has paid for a query yet, and the permission layer, the part that lets a group decide what its record may be used for, is designed and not yet running.
+
+### How a group gets here: incubation
+
+Few groups will assemble those parts on their own, and we do not expect them to. Most start as a crew with a shared question and no legal form. We run an incubation process that takes a group from there to running its own conspiracy, and it is the on-ramp the rest of this proposal depends on. It has three rungs:
+
+1. **Tenant.** The group's record, member door and ritual (the recurring meeting that produces its record) run on our infrastructure, at an address under decent.partners. Its Kreivo community is registered with an operator key derived from ours, so a new group costs one command and no custody step on its side.
+2. **Incubated.** The group gets its own server, seeded with the tooling, its own record and its running systems. The address does not change, so its members never have to sign in again. We stay on as a named backstop, so a lost key or a broken upgrade can be recovered.
+3. **Sovereign.** The group's own community votes, on its own governance track, to rotate its operator from our key to one it holds, with recovery shared between several guardians. After that vote we cannot sign for it, and its door moves to its own domain.
+
+Graduation is a vote by the group, not a gift from us. The test of the process is that it ends: a group that could not leave would make us its landlord.
+
+Two things make this an on-ramp for Kusama as well as for us. The first members come from the group's own network, the artists, crew and audience it already has, and every passkey action on its door enrols that person as a member, so onboarding people and onboarding a collective are one motion. And each rung puts more of the group's activity on Kusama: its memberships, its treasury, its record and its fees.
+
+[Four To The Floor](https://fttf.decent.partners) is the worked case. It is on the first rung, registered as community 444 on Kreivo on 19 September, and is preparing to onboard its network of artists, directors and crew. It has not graduated, and no group has yet.
 
 ## 1. Answer Rom1's question first: independence
 

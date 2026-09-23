@@ -2,6 +2,12 @@
 
 All notable changes to this publication are recorded here. Released editions are immutable and identified by their Git tag and commit SHA.
 
+## 0.1.8 | 2026-09-23
+
+- Adds "How a group gets here: incubation" to the conspiracy section: the three rungs (tenant, incubated, sovereign), graduation by the group's own vote, and how incubation on-ramps collectives and their networks onto Kusama. Four To The Floor is the worked case.
+- Disclosures: Four To The Floor is named as community 444 on Kreivo and described as preparing to onboard its network, replacing "beginning to onboard".
+- Release tag: `publication/independent-kusama/v0.1.8`.
+
 ## 0.1.7 | 2026-09-23
 
 - Disclosures clarified: Decent Partners' commercial interest in dUSD is through its arrangements with Brale, it is an investor in Bloque, and it commissioned Four To The Floor, itself a collective on Kreivo.
