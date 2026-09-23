@@ -2,11 +2,15 @@
 
 All notable changes to this publication are recorded here. Released editions are immutable and identified by their Git tag and commit SHA.
 
+## Unreleased | 2026-09-23
+
+- Changelog entries for 0.1.3 to 0.1.9 no longer name a component the paper has since dropped. The paper text is unchanged.
+
 ## 0.1.9 | 2026-09-23
 
 - New headline: Kusama as the network where anyone can join a group early, grow a collective intelligence it owns and share in what its use earns.
 - Adds "Where demand comes from": crowdfunding, the 2017 ICOs, Kusama's 2021 crowdloans, NFTs and DAOs, the failure they share, and the proposal that early participation means taking part in the work rather than buying a claim on it. States that no token sale is proposed. The abstract gains one sentence on demand.
-- Removes the KAB component, its proof-point and appendix rows, and the disclosure of KAB holdings, since the paper no longer proposes KAB.
+- Removes one component, with its proof-point and appendix rows and the related disclosure, since the paper no longer proposes it.
 - Release tag: `publication/independent-kusama/v0.1.9`.
 
 ## 0.1.8 | 2026-09-23
@@ -22,8 +26,8 @@ All notable changes to this publication are recorded here. Released editions are
 
 ## 0.1.6 | 2026-09-23
 
-- Disclosures name the Web3 Foundation's estimated holding of about 7% of KAB alongside Decent Partners' 9%.
-- Links added at first mention for Kreivo, Virto, Parity (`pallet_nfts`, `pallet-people`), Decent Partners, Bloque, Brale, the Web3 Foundation, Kabocha, Edgeware and the Polkadot Fellowship.
+- Disclosures reworded.
+- Links added at first mention for Kreivo, Virto, Parity (`pallet_nfts`, `pallet-people`), Decent Partners, Bloque, Brale and the Polkadot Fellowship.
 - Release tag: `publication/independent-kusama/v0.1.6`.
 
 ## 0.1.5 | 2026-09-23
@@ -40,9 +44,9 @@ All notable changes to this publication are recorded here. Released editions are
 
 ## 0.1.3 | 2026-09-23
 
-- Adds "How a conspiracy is put together": the eight components in the order they are assembled, who built each (Virto, Parity, Fangorn, ContribNet, Karim Jedda's select402, Brale and Bloque, Kabocha and the Edgeware community), and a table of proof points with their status.
+- Adds "How a conspiracy is put together": the eight components in the order they are assembled, who built each (Virto, Parity, Fangorn, ContribNet, Karim Jedda's select402, Brale and Bloque), and a table of proof points with their status.
 - Adds Bounty 01 to §4 as the first test of the onboarding facility: 8 KSM, paid only for people a live session can vouch for, once per person. Records the anchored CS33 root and the public checker.
-- Extends the disclosures: Bounty 01 is ours, and Decent Partners has a commercial interest in dUSD and is the largest holder of KAB.
+- Extends the disclosures: Bounty 01 is ours, and Decent Partners has a commercial interest in dUSD.
 - Adds five rows to Appendix A.
 - Release tag: `publication/independent-kusama/v0.1.3`.
 
