@@ -15,7 +15,7 @@ tags:
   - jam
 status: published
 publicationType: position-paper
-edition: 0.1.0
+edition: 0.1.1
 license: CC-BY-4.0
 responds_to: https://github.com/sdfinst/publications/blob/a445bba7ab5a801e3b85168551dfa8b1e5021bc2/content/articles/proposal-kusama-future-jam-prime/index.md
 ---
@@ -31,7 +31,7 @@ responds_to: https://github.com/sdfinst/publications/blob/a445bba7ab5a801e3b8516
 
 ## Abstract
 
-Kusama should be the network where groups of people grow their collective intelligence and own what it is made of: their membership, their record, the permission over it, their treasury and their rules.
+Kusama should be the network where groups of people grow their collective intelligence and own what it is made of: their identity, their membership, their record, the permission over it, their treasury and their rules.
 
 **We propose keeping the direction KSM DAO already voted for in [#573](https://kusama.subsquare.io/referenda/573), a light and independent JAM, and funding it from what Kusama already has rather than by paying Polkadot.** Right-size security to demand. Give staked KSM a job on Kusama's own validator set. Stop selling the treasury and spend its surplus on members. Build the route from real revenue to the security budget during the runway, and measure it. If it fails the measures, KSM DAO goes to DOT DAO later with numbers rather than with a request.
 
@@ -43,13 +43,18 @@ We propose one direction that gives those features a subject: **Kusama is where 
 
 The case starts outside crypto. The most valuable systems now being built are made from human work: the writing, judgement, disagreement and decisions of people in real scenes. That material sits beneath every model, and it usually travels without a record of who made it, what they agreed it could be used for, or where the value went. Nobody designed it that way out of malice. It is what a system built to gather material at scale produces when consent and attribution were never part of the objective. Change the rules and the result changes. [Our guide](https://birdbrain.wtf/guide) takes that stack apart layer by layer.
 
-A network that wants to rebuild the layer beneath the model needs five things, and each of the paper's candidate visions is one of them:
+A network that wants to rebuild the layer beneath the model needs six things, and each of the paper's candidate visions is one of them:
 
-1. **Membership:** who is in the group. Personhood credentials belong here. Live on Kreivo today, with 21 communities and 707 memberships.
-2. **A record:** what the group made and decided, with contributors attached, in a form that can be inspected and corrected. Working for a handful of groups, including us. Experimental.
-3. **Permission:** what the record may be used for, with retrieval and training agreed separately. Privacy belongs here, as the way a group keeps control of its own material rather than as an end in itself. Proposed.
-4. **A treasury and a currency:** so agreed use can pay the group that did the work. A ksmUSD belongs here, as does dUSD, which is already live. Small volume.
-5. **Governance:** the group sets the rules for the other four. Private governance belongs here. Collectives on Kreivo vote today.
+1. **Identity:** who each person is, held by them rather than issued to them. Personhood credentials belong here, and Seeds sits on top of them. Live.
+2. **Membership:** who is in the group. Live on Kreivo today, with 21 communities and 707 memberships.
+3. **A record:** what the group made and decided, with contributors attached, in a form that can be inspected and corrected. Working for a handful of groups, including us. Experimental.
+4. **Permission:** what the record may be used for, with retrieval and training agreed separately. Privacy belongs here, as the way a group keeps control of its own material rather than as an end in itself. Proposed.
+5. **A treasury and a currency:** so agreed use can pay the group that did the work. A ksmUSD belongs here, as does dUSD, which is already live. Small volume.
+6. **Governance:** the group sets the rules for the other five. Private governance belongs here. Collectives on Kreivo vote today.
+
+**Seeds** is how identity works in this picture. A Seed is an account whose signing key comes from the passkey on a person's own device, so nobody issues it and nobody can take it back. It carries that person's history of contribution: what they made, where, and what the groups they belong to agreed about it. Seeds does not compete with personhood registries such as Polkadot's `pallet-people`. It assumes one underneath. A personhood proof says one real human is at the gate. It cannot say what that human has contributed since, because its aliases are unlinkable across contexts by design, which is right for privacy and wrong for attribution. A Seed is linkable only where its holder consents. The personhood proof is the floor, and the Seed is the slope. The code is open at [github.com/Birdbrain-wtf/seeds](https://github.com/Birdbrain-wtf/seeds).
+
+Put the six parts together and the network can do something no single part does. Each contributor's Seed becomes a growing record of what they know and how they judge, an intelligence of their own. Others can draw on it, with agreed use paid for, and people can assemble contributors into groups around a piece of work, the way a label assembles a session or a magazine a commissioning list. Two properties have to hold at once. Privacy: a contributor's material stays theirs, and nothing links it across groups without their consent. Auditability: what went into a group's work, who agreed to what, and where the value went can be checked by a stranger from what is anchored on chain. Today the record, the agreements and the payments work for a handful of groups. Drawing on an individual contributor's intelligence, and assembling groups from Seeds across the network, is what we are building next.
 
 Together that is a new kind of institution: smaller than a company, owned by its members, able to remember, decide and account for itself. Labs, record labels, magazines, guilds and co-operatives each carry useful habits, but none was designed for this. Kusama began as the place code was tested before Polkadot. steven's line at #19 names the next job: a frontier tests institutions. This is the institution we think Kusama should test.
 
@@ -59,7 +64,7 @@ Three things follow, and they shape the rest of this proposal.
 - **KSM grows with people, not with the security bill.** Every member admitted, every collective treasury and every paid query is a use of KSM that scales with the groups living here (§4, §5). Staked KSM secures the ground they stand on, and later the groups can bring stake of their own (§3).
 - **Builders before infrastructure.** Coretime is only worth buying if someone has a reason to use it. The builders Kusama Vision funds are the people who will make these institutions (§6).
 
-Where this stands: membership, treasuries, payments and voting are live at small scale. The record and permission layers work for a few groups. Whether collectives built this way turn out meaningfully different from each other, fairer or more creative is still a claim that has to earn evidence, and §8 is how the DAO would find out.
+Where this stands: Seeds, membership, treasuries, payments and voting are live at small scale. The record and permission layers work for a few groups. Whether collectives built this way turn out meaningfully different from each other, fairer or more creative is still a claim that has to earn evidence, and §8 is how the DAO would find out.
 
 ## 1. Answer Rom1's question first: independence
 
