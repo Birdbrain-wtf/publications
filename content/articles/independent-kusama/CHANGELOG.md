@@ -2,6 +2,12 @@
 
 All notable changes to this publication are recorded here. Released editions are immutable and identified by their Git tag and commit SHA.
 
+## 0.1.6 | 2026-09-23
+
+- Disclosures name the Web3 Foundation's estimated holding of about 7% of KAB alongside Decent Partners' 9%.
+- Links added at first mention for Kreivo, Virto, Parity (`pallet_nfts`, `pallet-people`), Decent Partners, Bloque, Brale, the Web3 Foundation, Kabocha, Edgeware and the Polkadot Fellowship.
+- Release tag: `publication/independent-kusama/v0.1.6`.
+
 ## 0.1.5 | 2026-09-23
 
 - Disclosures now say Kreivo has no token of its own and uses KSM as its fee token.
