@@ -1,0 +1,28 @@
+{
+  "account": "F3opxRbN5ZbjJNU511Kj2TLuzFcDq9BGduA9TgiECafpg29",
+  "network": "Kusama Asset Hub",
+  "symbol": "KSM",
+  "note": "Free balance read from state at the block nearest 12:00 UTC on each date, via wss://kusama-asset-hub-rpc.polkadot.io. Read 2026-09-18 for the reply to forum thread 18683. The 2026-09-11 point matches the proposal authors' own snapshot (883,760), which is the cross-check on this series.",
+  "points": [
+    { "date": "2026-07-01", "block": 18539721, "ksm": 852535 },
+    { "date": "2026-07-10", "block": 18873008, "ksm": 805853 },
+    { "date": "2026-07-20", "block": 19249540, "ksm": 820669 },
+    { "date": "2026-07-27", "block": 19533096, "ksm": 826124 },
+    { "date": "2026-08-01", "block": 19728618, "ksm": 831333 },
+    { "date": "2026-08-09", "block": 20039658, "ksm": 843263 },
+    { "date": "2026-08-19", "block": 20404762, "ksm": 857348 },
+    { "date": "2026-08-29", "block": 20781286, "ksm": 864886 },
+    { "date": "2026-09-04", "block": 21009302, "ksm": 873584 },
+    { "date": "2026-09-11", "block": 21278129, "ksm": 883758 },
+    { "date": "2026-09-15", "block": 21429440, "ksm": 889582 },
+    { "date": "2026-09-18", "block": 21539631, "ksm": 889111 }
+  ],
+  "derived": {
+    "net_rate_since_2026-07-27": "1,188 KSM/day over 53 days (+62,987)",
+    "net_rate_since_2026-08-01": "1,204 KSM/day over 48 days (+57,778)",
+    "annualised": "~434,000 KSM/year",
+    "usd_at_4.32": { "standing_balance": 3840959, "annual_accumulation": 1874880 },
+    "endowment_cost": "US$8.64m / 5 years = US$1.728m per year",
+    "caveat": "A single large referendum absorbs a chunk: the treasury fell 852,535 -> 805,853 between 1 and 10 July. The rate above is net of spending across a steady ten-week period, not a guarantee."
+  }
+}
