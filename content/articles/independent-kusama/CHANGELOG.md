@@ -2,6 +2,14 @@
 
 All notable changes to this publication are recorded here. Released editions are immutable and identified by their Git tag and commit SHA.
 
+## 0.1.3 | 2026-09-23
+
+- Adds "How a conspiracy is put together": the eight components in the order they are assembled, who built each (Virto, Parity, Fangorn, ContribNet, Karim Jedda's select402, Brale and Bloque, Kabocha and the Edgeware community), and a table of proof points with their status.
+- Adds Bounty 01 to §4 as the first test of the onboarding facility: 8 KSM, paid only for people a live session can vouch for, once per person. Records the anchored CS33 root and the public checker.
+- Extends the disclosures: Bounty 01 is ours, and Decent Partners has a commercial interest in dUSD and is the largest holder of KAB.
+- Adds five rows to Appendix A.
+- Release tag: `publication/independent-kusama/v0.1.3`.
+
 ## 0.1.2 | 2026-09-23
 
 - The six parts now start with the individual rather than the group: the mechanism captures what each person brings and what they make together.

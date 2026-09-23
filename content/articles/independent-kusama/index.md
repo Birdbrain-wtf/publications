@@ -15,7 +15,7 @@ tags:
   - jam
 status: published
 publicationType: position-paper
-edition: 0.1.2
+edition: 0.1.3
 license: CC-BY-4.0
 responds_to: https://github.com/sdfinst/publications/blob/a445bba7ab5a801e3b85168551dfa8b1e5021bc2/content/articles/proposal-kusama-future-jam-prime/index.md
 ---
@@ -27,13 +27,15 @@ responds_to: https://github.com/sdfinst/publications/blob/a445bba7ab5a801e3b8516
 
 **Status and purpose.** This paper responds to *[A Proposal for a Kusama Future on JAM Prime](https://github.com/sdfinst/publications/blob/a445bba7ab5a801e3b85168551dfa8b1e5021bc2/content/articles/proposal-kusama-future-jam-prime/index.md)* (Emiel Sebastiaan and Arief Ernst, SDFI BV, 17 September 2026), read at revision a445bba, and is offered into the same discussion window, which closes on 16 October 2026. It proposes a direction for KSM DAO to weigh against JAM Prime. Appendix A sets out every figure and where it was read. Funding, implementation and any change to issuance or the validator set need their own referenda.
 
-**Disclosures.** We are a collective on Kreivo, one of Kusama's 12 non-system parachains, and §5.4 of the JAM Prime paper prices our chain out. We hold KSM and buy more of it to pay for members. Several of the mechanisms cited here (the onboarding subsidy in RFC-001, the metered query service, the Kreivo memberships) are ones we built or use, and we say which are live and which are proposed as we go. AI tools were used to assist with research, drafting and editing. We take full responsibility for the arguments and figures.
+**Disclosures.** We are a collective on Kreivo, one of Kusama's 12 non-system parachains, and §5.4 of the JAM Prime paper prices our chain out. We hold KSM and buy more of it to pay for members. Several of the mechanisms cited here (the onboarding subsidy in RFC-001, the metered query service, the Kreivo memberships) are ones we built or use, and we say which are live and which are proposed as we go. Bounty 01, described in §4, is ours. Decent Partners, which supports Birdbrain and funds its deposits, has a commercial interest in dUSD through its arrangements with Bloque and Brale, and is the largest holder of KAB, at about 9% of supply. AI tools were used to assist with research, drafting and editing. We take full responsibility for the arguments and figures.
 
 ## Abstract
 
 Kusama should be the network where groups of people grow their collective intelligence and own what it is made of: their identity, their membership, their record, the permission over it, their treasury and their rules.
 
 **We propose keeping the direction KSM DAO already voted for in [#573](https://kusama.subsquare.io/referenda/573), a light and independent JAM, and funding it from what Kusama already has rather than by paying Polkadot.** Right-size security to demand. Give staked KSM a job on Kusama's own validator set. Stop selling the treasury and spend its surplus on members. Build the route from real revenue to the security budget during the runway, and measure it. If it fails the measures, KSM DAO goes to DOT DAO later with numbers rather than with a request.
+
+Most of the parts are already on Kusama, built by several teams, and a first 8 KSM test of spending treasury money only on people a live session can vouch for is ready to submit.
 
 ## What Kusama is for
 
@@ -65,6 +67,36 @@ Three things follow, and they shape the rest of this proposal.
 - **Builders before infrastructure.** Coretime is only worth buying if someone has a reason to use it. The builders Kusama Vision funds are the people who will make these institutions (§6).
 
 Where this stands: Seeds, membership, treasuries, payments and voting are live at small scale. The record and permission layers work for a few groups. Whether collectives built this way turn out meaningfully different from each other, fairer or more creative is still a claim that has to earn evidence, and §8 is how the DAO would find out.
+
+## How a conspiracy is put together
+
+We call a collective built this way a creative conspiracy, from the Latin *conspirare*, to breathe together: a form of organisation beside the company, the co-operative and the charity, with a ledger. Birdbrain is one. Below is what one is made of, in the order it is assembled. Most of the parts were built by other people, so for each we name who built it, what it does and what is on chain today.
+
+1. **A person arrives with a passkey.** Kreivo's pass pallet, built by the [Virto](https://github.com/virto-network/kreivo) team, turns the passkey on someone's own device into an on-chain account, with no seed phrase and no tokens to buy first. Seeds, our code, grows the person's record of contribution on top of that account.
+2. **They join, and the membership is an NFT.** A Kreivo community, also Virto's work, is a governed body with its own voting track and treasury. Each membership is an item in the community's own collection on Parity's `pallet_nfts`, so the group can count, rank and revoke it. Birdbrain is community 1786 and its memberships are items in collection 1786. Admitting a member costs about 0.3 KSM in deposits.
+3. **KSM pays for the ground.** Membership deposits, fees, the community's treasury and the XCM between Kreivo and Asset Hub are all KSM. A community also has a sovereign account on Asset Hub that no key controls and only the community's own referendum can spend.
+4. **The record is a versioned graph.** What people said, made and decided is published as a metagraph in the design of Tony Riemer and the [Fangorn](https://github.com/fangorn-network) team: a versioned graph whose head is committed on chain, with each vertex either public or sealed. Fangorn's own contracts run on Arbitrum. We ported their data registry to Kusama Asset Hub, where Birdbrain's graph has been committed since 18 August 2026, stored on our own IPFS node. Sealed vertices, which is where the permission layer lives, are Fangorn's design and not yet running in ours.
+5. **Contribution is accounted for.** [ContribNet](https://forum.polkadot.network/t/17630), built by its own team on Kusama Asset Hub and announced in April 2026, pays open-source contributors from a project treasury in proportion to contribution points, with review and fork-with-snapshot as its defence against capture. It is the closest thing on Kusama to the contribution layer this proposal needs. We run a read-only front end over it and have a project registered there. Its builders describe it as unaudited.
+6. **Use of the record is paid for.** Our query meter sells rows from a collective's record by the query. Its design follows [select402](https://select402.com), Karim Jedda's pay-per-query data service, which showed that an HTTP 402 payment ([x402](https://x402.org)) can settle natively from a Polkadot-style account. We changed two things, charging for rows delivered rather than scanned and refusing a second claim against one transfer, and offered both back upstream.
+7. **Payments settle in a stablecoin.** dUSD is a dollar stablecoin on Kusama Asset Hub (asset 50000002), issued through [Brale](https://brale.xyz) and used as the settlement asset of Bloque's payment network. Fees can be paid in dUSD, so a buyer needs no KSM. The slot is swappable: the meter needs an asset it can check on chain, and a ksmUSD would fit it.
+8. **A long-term claim on the record.** KAB is the token of Kabocha, a Kusama parachain launched in 2022, incubated by the Edgeware community with Ramsey (decentration) as technical steward, later maintained by JelliedOwl, and now by us. The design we are working on mints KAB as contributions in a collective's graph mature, with a fixed share of every mint reserved for the connections between works, so whoever connects things is paid as well as whoever makes them. The Kabocha chain has been dormant by choice since 30 May 2026, and none of the minting exists.
+
+The proof points, as they stand:
+
+| Component | Built by | On chain today | Status |
+|---|---|---|---|
+| KSM | Kusama | Treasury of 879,525 KSM. Membership deposits and fees on Kreivo | Live |
+| Passkey accounts | Virto (Kreivo) | Seven of Birdbrain's nineteen known people hold one in self-custody | Live |
+| Seeds | Birdbrain | [Open code](https://github.com/Birdbrain-wtf/seeds) over those accounts | Live, small |
+| Memberships as NFTs | Virto, on Parity's `pallet_nfts` | 21 communities and 707 memberships on Kreivo | Live |
+| The record | Fangorn's design, our port | Birdbrain's graph on Asset Hub since 18 August 2026 | Live for one collective |
+| Contribution accounting | ContribNet | Live projects on Asset Hub, ours among them | Live, unaudited |
+| Paid queries | Birdbrain, after select402 | Seven settled dUSD payments, all between our own keys | Priced, no outside buyer yet |
+| dUSD | Brale and Bloque | Asset 50000002 on Asset Hub | Live |
+| Attendance roots | Birdbrain, [checker public](https://github.com/Birdbrain-wtf/attendance-checker) | One session root anchored, 17 September 2026 | Experimental (§4) |
+| KAB | Kabocha, from the Edgeware community | 77.45m KAB on a dormant chain | Proposed |
+
+Two gaps matter most. Nobody outside our own keys has paid for a query yet, and the permission layer, the part that lets a group decide what its record may be used for, is designed and not yet running.
 
 ## 1. Answer Rom1's question first: independence
 
@@ -104,6 +136,16 @@ We propose a standing rule instead ([RFC-001](https://birdbrain.wtf/rfc/rfc-001-
 - **A suggested first-year bar is 100,000 subsidised memberships,** which costs about 30,000 KSM. That is 7% of one year's inflow. Today there are 707 memberships across 21 communities on Kreivo, so the bar is 140 times the current base, which is why it counts as a test.
 
 This answers Position 9 of the paper, which asks why anyone would acquire, use or hold KSM. Membership gives KSM a use that grows with the number of people joining, rather than with the size of the security bill.
+
+### The first test: pay only for people the room can vouch for
+
+Before asking for 30,000 KSM, we are asking for 8. Bounty 01 is a Small Tipper bounty (track 30) on Asset Hub's multi-asset bounties pallet, and it funds a membership only for someone a live session can vouch for, and only once per person.
+
+Chaos Sessions are Birdbrain's open weekly calls, 34 so far, and people sign in with a passkey, so every session has a sign-in log and everyone on the call can see who else is there. After a session the attendees become a Merkle root, written to Asset Hub before any payout against it. Each leaf binds a person, their account and the session. A payout is due only if the root was on chain first, the leaf is in it, the account holds a membership minted after the session, and the bounty has not already funded that person. The curator's only judgement is whether the [published checker](https://github.com/Birdbrain-wtf/attendance-checker) passes, and anyone can rerun it and dispute the answer.
+
+The once-per-person rule comes from our own register. Birdbrain holds 27 memberships across 26 addresses, which belong to about eleven people, and every one was a valid passkey that had never held a membership. So the plan burns all 27 and rebuilds one per person. The first root, for CS33, is anchored at Asset Hub block 21,513,860 on 17 September 2026. Nine people were in the room and four are eligible: three were guests without a passkey, and two held only accounts we hold keys for, so paying against them would be paying ourselves. The whole sequence passes 12 of 12 steps against live state in dry-run and on a fork of Asset Hub. It has not yet been submitted.
+
+The check is falsifiable, not trustless. The roster is witnessed by the room, not proved. It is built so that Parity's personhood work, `pallet-people`, can replace the once-per-person check when it is available. Parity's approach builds personhood from a recurring recognition game, and Chaos Sessions are already one. This bounty tests the settlement half: releasing treasury money against recognition rather than against a curator's confidence. If it holds at 8 KSM, it is the formula the onboarding facility would run at scale.
 
 ## 5. Revenue: build the route during the runway
 
@@ -168,6 +210,11 @@ Every figure below was read on 23 September 2026 unless marked otherwise, and ea
 | Issuance to staking | about 1.34m KSM a year | About 918 KSM per era, four six-hour eras a day |
 | KSM price | US$4.42 | CoinGecko |
 | Kreivo | 21 communities, 707 membership items, treasury 497.7 KSM | Kreivo state |
+| Birdbrain register | 27 memberships across 26 addresses, about eleven people | Kreivo collection 1786, read 21 September 2026 |
+| CS33 attendance root | `0xcc04a401…d686a0` | Remark at Asset Hub block 21,513,860, 17 September 2026, extrinsic `0x0a04550e…80dd` |
+| Birdbrain's graph | Data registry `0x04c4ec8c4d6eaa7982748f3d7b0cc1227ee1cc53` | Asset Hub, deployed at block 20,375,485, 18 August 2026 |
+| Paid queries | Seven settled dUSD payments | Asset Hub, 21 August to 19 September 2026, all between our own keys |
+| KAB supply | 77,449,609 KAB | Kabocha state, read 11 August 2026 |
 | Validators for #573 | about 96 | The JAM Prime paper's ratio of 3 validators per core, applied to #573's 32 cores |
 | Security bill for #573 | US$3.46m a year | 96 × US$3,000 a validator-month × 12, the JAM Prime paper's own benchmark |
 | Gap at 2.4% issuance | about US$1.46m a year | US$3.46m less issuance of about US$2.0m |
