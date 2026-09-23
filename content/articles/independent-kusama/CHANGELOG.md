@@ -2,8 +2,14 @@
 
 All notable changes to this publication are recorded here. Released editions are immutable and identified by their Git tag and commit SHA.
 
-## 0.1.0 | 2026-09-23 | Pending release
+## 0.1.1 | 2026-09-23
+
+- Adds identity to what a group owns, as a sixth part of the network alongside membership, record, permission, treasury and governance.
+- Explains Seeds: identity held by the person, sitting above a personhood registry, linkable only with consent.
+- Describes what the parts allow together: drawing on each contributor's intelligence and assembling contributors into groups, with privacy and auditability, and says which of that is live.
+- Release tag: `publication/independent-kusama/v0.1.1`.
+
+## 0.1.0 | 2026-09-23
 
 - First public position paper, in response to *A Proposal for a Kusama Future on JAM Prime* at revision a445bba.
-- Release tag: `publication/independent-kusama/v0.1.0`, to be created from the published commit.
-- Commit SHA: recorded in the GitHub Release once the tag is pushed.
+- Release tag: `publication/independent-kusama/v0.1.0`, commit 2c3e588.
