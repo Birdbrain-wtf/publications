@@ -2,6 +2,13 @@
 
 All notable changes to this publication are recorded here. Released editions are immutable and identified by their Git tag and commit SHA.
 
+## 0.1.9 | 2026-09-23
+
+- New headline: Kusama as the network where anyone can join a group early, grow a collective intelligence it owns and share in what its use earns.
+- Adds "Where demand comes from": crowdfunding, the 2017 ICOs, Kusama's 2021 crowdloans, NFTs and DAOs, the failure they share, and the proposal that early participation means taking part in the work rather than buying a claim on it. States that no token sale is proposed. The abstract gains one sentence on demand.
+- Removes the KAB component, its proof-point and appendix rows, and the disclosure of KAB holdings, since the paper no longer proposes KAB.
+- Release tag: `publication/independent-kusama/v0.1.9`.
+
 ## 0.1.8 | 2026-09-23
 
 - Adds "How a group gets here: incubation" to the conspiracy section: the three rungs (tenant, incubated, sovereign), graduation by the group's own vote, and how incubation on-ramps collectives and their networks onto Kusama. Four To The Floor is the worked case.
