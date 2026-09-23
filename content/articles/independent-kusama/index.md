@@ -15,7 +15,7 @@ tags:
   - jam
 status: published
 publicationType: position-paper
-edition: 0.1.1
+edition: 0.1.2
 license: CC-BY-4.0
 responds_to: https://github.com/sdfinst/publications/blob/a445bba7ab5a801e3b85168551dfa8b1e5021bc2/content/articles/proposal-kusama-future-jam-prime/index.md
 ---
@@ -43,16 +43,16 @@ We propose one direction that gives those features a subject: **Kusama is where 
 
 The case starts outside crypto. The most valuable systems now being built are made from human work: the writing, judgement, disagreement and decisions of people in real scenes. That material sits beneath every model, and it usually travels without a record of who made it, what they agreed it could be used for, or where the value went. Nobody designed it that way out of malice. It is what a system built to gather material at scale produces when consent and attribution were never part of the objective. Change the rules and the result changes. [Our guide](https://birdbrain.wtf/guide) takes that stack apart layer by layer.
 
-A network that wants to rebuild the layer beneath the model needs six things, and each of the paper's candidate visions is one of them:
+A network that wants to rebuild the layer beneath the model has to start with the person, not the group. Creative work is done by individuals and by groups at the same time, and the mechanism has to capture both: what each person brings, and what they make together. That takes six things, and each of the paper's candidate visions is one of them:
 
-1. **Identity:** who each person is, held by them rather than issued to them. Personhood credentials belong here, and Seeds sits on top of them. Live.
+1. **The individual:** each person, with an identity they hold themselves rather than one issued to them, and a record of their own creative contribution that travels with them from group to group. Personhood credentials belong here, and Seeds builds on them. Live.
 2. **Membership:** who is in the group. Live on Kreivo today, with 21 communities and 707 memberships.
-3. **A record:** what the group made and decided, with contributors attached, in a form that can be inspected and corrected. Working for a handful of groups, including us. Experimental.
+3. **A record:** what each person and each group made and decided, with contributors attached, in a form that can be inspected and corrected. Working for a handful of groups, including us. Experimental.
 4. **Permission:** what the record may be used for, with retrieval and training agreed separately. Privacy belongs here, as the way a group keeps control of its own material rather than as an end in itself. Proposed.
 5. **A treasury and a currency:** so agreed use can pay the group that did the work. A ksmUSD belongs here, as does dUSD, which is already live. Small volume.
 6. **Governance:** the group sets the rules for the other five. Private governance belongs here. Collectives on Kreivo vote today.
 
-**Seeds** is how identity works in this picture. A Seed is an account whose signing key comes from the passkey on a person's own device, so nobody issues it and nobody can take it back. It carries that person's history of contribution: what they made, where, and what the groups they belong to agreed about it. Seeds does not compete with personhood registries such as Polkadot's `pallet-people`. It assumes one underneath. A personhood proof says one real human is at the gate. It cannot say what that human has contributed since, because its aliases are unlinkable across contexts by design, which is right for privacy and wrong for attribution. A Seed is linkable only where its holder consents. The personhood proof is the floor, and the Seed is the slope. The code is open at [github.com/Birdbrain-wtf/seeds](https://github.com/Birdbrain-wtf/seeds).
+**Seeds** is how the individual enters this picture. A Seed is an account whose signing key comes from the passkey on a person's own device, so nobody issues it and nobody can take it back. It carries that person's history of contribution: what they made, where, and what the groups they belong to agreed about it. Seeds does not compete with personhood registries such as Polkadot's `pallet-people`. It assumes one underneath. A personhood proof says one real human is at the gate. It cannot say what that human has contributed since, because its aliases are unlinkable across contexts by design, which is right for privacy and wrong for attribution. A Seed is linkable only where its holder consents. The personhood proof is the floor, and the Seed is the slope. The code is open at [github.com/Birdbrain-wtf/seeds](https://github.com/Birdbrain-wtf/seeds).
 
 Put the six parts together and the network can do something no single part does. Each contributor's Seed becomes a growing record of what they know and how they judge, an intelligence of their own. Others can draw on it, with agreed use paid for, and people can assemble contributors into groups around a piece of work, the way a label assembles a session or a magazine a commissioning list. Two properties have to hold at once. Privacy: a contributor's material stays theirs, and nothing links it across groups without their consent. Auditability: what went into a group's work, who agreed to what, and where the value went can be checked by a stranger from what is anchored on chain. Today the record, the agreements and the payments work for a handful of groups. Drawing on an individual contributor's intelligence, and assembling groups from Seeds across the network, is what we are building next.
 
