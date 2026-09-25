@@ -28,7 +28,7 @@ related:
 
 *25 September 2026, by Birdbrain. Figures read from Kusama Asset Hub at block 21,805,917 and from the Subsquare vote index the same day. Every figure is in the* `data/` *folder next to this note.*
 
-**TL;DR.** The discussion of Kusama's future has been about strategy: independence or canary, how many cores, at what price. Very little of it has been about how any of those directions would actually be enacted. Kusama is a single-asset game. Every decision is settled in one numeraire, KSM balance multiplied by conviction, and whoever holds enough of it decides. On the record of 245 referenda, one block of about 20 unlabelled accounts, voting in perfect lockstep, holds roughly **2.56 million KSM: 13.6% of all KSM and 29% of all staked KSM.** Five of those accounts are the source of Web3 Foundation's own Decentralized Voices delegations. The block took part in 110 of the referenda we sampled, carried a median 77% of the weight cast in them, and reversed the outcome of 12, eight of them in 2026. The largest organised voice outside it, ChaosDAO, carries about 90,000 delegated KSM, of which 80,000 comes from a single account. JAM Prime would potentially end staking issuance for the 8.8 million KSM that is staked today, and it would be decided by the same KSM. We think the people proposing a direction, and the people holding the weight, should say plainly how they expect it to be enacted.
+**TL;DR.** The discussion of Kusama's future has been about strategy: independence or canary, how many cores, at what price. Very little of it has been about how any of those directions would actually be enacted. Kusama is a single-asset game. Every decision is settled in one numeraire, KSM balance multiplied by conviction, and whoever holds enough of it decides. On the record of 245 referenda, one block of 24 unlabelled accounts, voting in perfect lockstep, holds roughly **2.56 million KSM: 13.6% of all KSM and 29% of all staked KSM.** Seven of those accounts are the source of Web3 Foundation's own Decentralized Voices delegations. The block took part in 110 of the referenda we sampled, carried a median 77% of the weight cast in them, and reversed the outcome of 12, eight of them in 2026. The largest organised voice outside it, ChaosDAO, carries about 90,000 delegated KSM, of which 80,000 comes from a single account. JAM Prime would potentially end staking issuance for the 8.8 million KSM that is staked today, and it would be decided by the same KSM. We think the people proposing a direction, and the people holding the weight, should say plainly how they expect it to be enacted.
 
 ---
 
@@ -42,7 +42,7 @@ The [JAM Prime paper](https://github.com/sdfinst/publications/blob/a445bba7ab5a8
 
 Two of those parties hold the resources outright. The 10 million DOT recorded in [WFC #498](https://kusama.subsquare.io/referenda/498) came from Web3 Foundation's own treasury, and the paper itself says W3F's authorisation of its contribution is separate from anything KSM DAO decides. That money moves at W3F's discretion. Everything else, the direction, the reversal of #573, the monetary redesign, the end of the validator set, has to pass through KSM governance.
 
-The paper does not say whose KSM would pass it. Nor, so far, has anyone in the thread. 
+The paper does not say whose KSM would pass it. Nor, so far, has anyone in the thread.
 
 The confidence of the proposition, and much of the engagement with it, reads as though the enacting weight were already known. We do not think a paper by a team with no route into W3F and Parity's strategic thinking, and no stake behind it, would have been received this way. It would have been read as one more Wish for Change, of which Kusama has had 48.
 
@@ -63,7 +63,7 @@ The founding idea of proof of stake is that those with the most at stake should 
 
 We read every vote in 245 referenda (every one with more than 300,000 conviction-weighted votes cast, plus the Wish for Change referenda that shaped this discussion), resolved the on-chain identity of 2,899 voting and delegating accounts on the Kusama People chain, and read current balances from Kusama Asset Hub. The method and its limits are in Appendix A.
 
-**One block dominates.** About 20 accounts with no on-chain identity each hold between 108,000 and 165,000 KSM, nearly all of it staked. They vote the same way as each other every time they vote together: 81 out of 81 shared referenda for one pair, 70 out of 70 for another. They vote mostly on runtime upgrades, system spends and treasury proposals, mostly aye, usually at 1x or 2x conviction.
+**One block dominates.** Nineteen accounts with no on-chain identity each hold between 108,000 and 165,000 KSM, nearly all of it staked. They vote the same way as each other every time they vote together: 81 out of 81 shared referenda for one pair, 70 out of 70 for another. They vote mostly on runtime upgrades, system spends and treasury proposals, mostly aye, usually at 1x or 2x conviction. Five smaller accounts complete the block, among them the two proxies that voted #498 (see §4).
 
 We split them into two tiers, because we can prove one and can only infer the other.
 
@@ -139,7 +139,7 @@ Both sets of instincts matter. But when the question is which instincts should d
 
 **The block.** Tier A is any account that delegated exactly 5,000 KSM at 6x to a Decentralized Voices delegate, the shape W3F describes. Tier B is any account with no identity, at least 50,000 KSM in a single direct vote, and 100% agreement with the majority side of tier A across at least three shared referenda, plus the two proxy accounts that voted #498. `file data/block-accounts.csv` lists every account and the evidence for each.
 
-**Balances.** `system.account` on Kusama Asset Hub at block 21,805,917 (free plus reserved; frozen shown separately). Total issuance, active era and total stake from the same block. `file data/chain-snapshot.json`.
+**Balances.** `system.account` on Kusama Asset Hub at block 21,805,917 (free plus reserved, with frozen shown separately). Total issuance, active era and total stake from the same block. `file data/chain-snapshot.json`.
 
 **ChaosDAO.** Delegations to `DCZyhphXsRLcW84G9WmWEXtAA8DKGtVGSFZLJYty8Ajjyfa` on #596, #627, #650 and #659, in `file data/chaosdao-delegations.csv`.
 
