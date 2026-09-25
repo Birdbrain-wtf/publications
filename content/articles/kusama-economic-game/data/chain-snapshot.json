@@ -1,0 +1,13 @@
+{
+ "read_at_utc": "2026-09-25",
+ "kusama_asset_hub_block": 21805917,
+ "total_issuance_ksm": 18885656,
+ "era_total_stake_ksm": 8800865,
+ "active_era": 10073,
+ "vote_locking_period_blocks": 100800,
+ "sources": {
+  "votes": "https://kusama-api.subsquare.io/gov2/referenda/<n>/votes",
+  "balances": "wss://kusama-asset-hub-rpc.polkadot.io system.account",
+  "identities": "wss://kusama-people-rpc.polkadot.io identity.identityOf + superOf"
+ }
+}

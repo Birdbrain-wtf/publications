@@ -1,0 +1,246 @@
+ref,track,state,aye_weight,nay_weight,support_ksm,block_aye_weight,block_nay_weight,outcome_flips_without_block,title
+8,whitelisted_caller,Executed,1643750,0,1900323,454952,0,False,Emergency Proposal: Recover Kintsugi Parachain
+14,whitelisted_caller,Executed,2272061,842,2465187,898952,0,False,Runtime v9340 Upgrade On Kusama: Fixing OpenGov Parameters and more! (
+15,referendum_canceller,Executed,2028717,0,2301198,1074000,0,False,
+16,staking_admin,Executed,2262945,0,2544619,1129840,0,False,
+17,whitelisted_caller,Executed,1832400,2,2161183,1074000,0,False,[Whitelisted Caller] Referendum #17: Upgrade Statemine and Encointer P
+21,treasurer,Executed,316520,0,575976,0,0,False,[Replacement for Referenda #1 and #3] Treasury Proposal: Snowbridge Fu
+23,whitelisted_caller,Executed,479983,10,789889,0,0,False,
+24,whitelisted_caller,Executed,1659057,0,1998000,1074000,0,False,Runtime Release v9350 for Kusama
+25,lease_admin,Executed,1202871,0,1557655,924000,0,False,Extending Encointer's common good lease by 48 weeks
+34,whitelisted_caller,Executed,627780,0,957163,0,0,False,Encointer runtime upgrade v12 2nd try
+39,auction_admin,Executed,1551883,0,1877750,594000,0,False,[Auction Admin] Referendum #39
+42,whitelisted_caller,Executed,540150,0,867209,0,0,False,Runtime Release v9360 for Kusama
+43,whitelisted_caller,Executed,735375,0,1065729,0,0,False,Proposal replacing the last 4 auctions on Kusama (until LP27) due to t
+49,whitelisted_caller,Executed,716592,19,667340,0,0,False,Enable conditional fast-unstake service in Kusama
+50,whitelisted_caller,Executed,492244,0,774194,0,0,False,[Whitelisted Caller] Referendum #50 - Upgrade Statemine v9360
+53,whitelisted_caller,Executed,421781,7,744091,0,0,False,[Whitelisted Caller] Referendum #53 - Add Bridge Hub System Parachain
+56,whitelisted_caller,Executed,571313,29,899080,0,0,False,Setting pvfCheckingEnabled In The Configuration To TRUE
+72,root,Executed,2102081,1033,2327004,924000,0,False,New Batch of Auctions for 2023: from LP27 to LP35 (Replacing Referendu
+73,treasurer,Executed,308691,1033,490577,0,0,False,Assign Administrative Curators to Infrastructure Builder Program (Boun
+74,whitelisted_caller,Executed,455430,0,775663,0,0,False,Runtime Upgrade on Kusama to v9370
+80,auction_admin,Executed,1035220,1122,1354799,0,0,False,Auction now (Auction Caller) - scheduling 1 auction to replace the fir
+81,root,Cancelled,949315,33297,934409,895000,0,False,2 Auctions using scheduled after (Root): scheduling 2 more auction to 
+85,whitelisted_caller,Executed,905842,1037,1225938,0,0,False,Kusama Auctions: Third time’s a charm - STEP 1
+86,root,Executed,838661,1751,765370,0,0,False,
+89,referendum_canceller,Executed,757884,2,1007978,0,0,False,Cancelling Referendum 81 (Auctions Schedule for 2023) Due To Wrong Par
+91,auction_admin,Executed,1014613,1047,1340555,0,0,False,New Auction To Schedule on Auction Admin track (As We Wait for Root Tr
+95,whitelisted_caller,Executed,403686,1116,714635,0,0,False,Lease swap for Karura and Mangata
+96,auction_admin,Executed,930451,1026,1242364,0,0,False,2nd Auction To Schedule on Auction Admin track (As We Wait for Root Tr
+98,whitelisted_caller,Executed,567085,1026,752477,0,0,False,Upgrade System Parachains to v9370
+101,root,Executed,1392485,1519,1591217,845000,0,False,Kusama Auctions for 2023
+103,auction_admin,Executed,984495,1045,1188531,666000,0,False,The 3rd Kusama Auction (And Last On Auction Admin Track before the 202
+106,whitelisted_caller,Cancelled,388911,6100,549624,0,0,False,Runtime Upgrade v9380 for Kusama
+118,whitelisted_caller,Rejected,297357,108680,403688,0,0,False,Runtime Upgrade v9380 for Kusama
+122,root,Executed,497361,1044,616326,0,0,False,Cancellation of the proposals that are wrongly scheduled
+129,whitelisted_caller,Executed,434201,1026,666774,0,0,False,Remove Old Runtime Upgrade Preimage
+130,whitelisted_caller,Executed,596610,1026,680080,0,0,False,"A New Batch Of HRMP Channels: Amplitude, MangataX, Imbue, Tinkernet, G"
+134,whitelisted_caller,Executed,571324,1044,725643,0,0,False,Kusama Runtime Upgrade 938*
+167,whitelisted_caller,Executed,547380,1105,691971,0,0,False,XCM to v2 proposal
+180,big_spender,Rejected,191835,240090,68483,0,0,False,Proposal for Mega Web3 DotSama Bootckathons 
+188,whitelisted_caller,Executed,399819,1108,698973,0,0,False,Increase Parachain Validators to 250
+190,whitelisted_caller,Executed,420039,1118,673409,0,0,False,Runtime Upgrade v9420 on Kusama and v9420 on System Parachains
+194,treasurer,Rejected,198214,201581,93501,0,0,False,Monitoring of public RPC/WSS Endpoints
+195,whitelisted_caller,Executed,427094,1139,702932,0,0,False,Update `relayVrfModuloSamples` in Parachain Config
+212,big_spender,Executed,266527,241970,81938,0,0,False,Encointer Lease2 Treasury Proposal 2/2
+219,whitelisted_caller,Executed,619231,143,698801,0,0,False,[Whitelisted Caller] Referendum #219: Increase Parachain Validators to
+221,whitelisted_caller,Executed,889210,50,827553,781000,0,False,[Whitelisted Caller] Referendum #221: Upgrade Kusama to v9430
+230,whitelisted_caller,Executed,486582,115,714089,0,0,False,[TAKE TWO] Next revision of increasing nomination pool limits & commis
+231,whitelisted_caller,Executed,505144,16,690915,0,0,False,[Whitelisted Caller] Referendum #231: Open HRMP Channel Between Asset 
+232,whitelisted_caller,Executed,485355,96,706056,0,0,False,[Whitelisted Caller] Referendum #232: Update Parachain Validation No S
+233,whitelisted_caller,Executed,483167,458,710656,0,0,False,Increase MaxMemoryPages to 512MB
+243,small_spender,Executed,374616,144420,389267,0,0,False,OpenGov Community Voting Discord Bot
+256,medium_spender,Executed,285611,146111,244557,0,0,False,Kusama RPC services Dwellir Q3 2023
+257,whitelisted_caller,Executed,480742,60,720637,0,0,False,Encointer runtime upgrade to v15 (whitelisted)
+258,whitelisted_caller,Executed,650065,0,875652,448370,0,False,[Whitelisted Caller] Referendum #258: Register DOT on Asset Hub
+259,medium_spender,Executed,255739,96396,92286,0,0,False,POLKADOT SAFARI '23 (Request for second allocation of funds)
+260,whitelisted_caller,Executed,677373,0,759474,0,0,False,[Whitelisted Caller] Referendum #260
+262,medium_spender,Rejected,194219,199978,55036,0,0,False,"OpenBrush 8-9, 11 milestone delivery"
+263,whitelisted_caller,Executed,1491861,0,3262092,174217,0,False,Fixing Inclusion Issues On Parachains Side
+270,small_spender,Rejected,251063,253868,100836,0,0,False,Polkashots.io Cloud Costs Remainder January-April 2023
+275,medium_spender,Executed,437744,110879,135305,0,0,False,"[RESUBMISSION OF REF 273] Bridge Hub Collator Compensation for June, J"
+276,whitelisted_caller,Executed,1075370,51,972331,904700,0,False,Encointer runtime upgrade to v16
+289,big_spender,Rejected,348289,609532,81591,0,0,False,Funding: Decent Partners full stack on/off chain collective
+291,medium_spender,Rejected,196485,196574,58243,0,0,False,Proof of Chaos Funding
+293,root,TimedOut,368107,444667,63091,0,0,False,Burn the Kusama treasury and turn the canary into the phoenix.
+294,whitelisted_caller,Executed,1080847,1666,983145,868700,0,False,Set backing group size to 3
+297,whitelisted_caller,Approved,945153,357375,828599,0,0,False,"[Whitelisted Caller] Referendum #297: Upgrade Kusama v1,000,000"
+298,small_spender,Executed,173197,162144,71315,0,0,False,"Small Tip for ""Uai So Serious?"" for managing the Polkadot Brasil Twitt"
+301,whitelisted_caller,Executed,1810054,354511,1820580,1368700,0,False,
+305,whitelisted_caller,Executed,530802,1,785670,0,0,False,Setting the relay chain's safeXcmVersion to v3
+309,medium_spender,Executed,417626,384368,542539,0,0,False,Kusama System Parachain Collators - Tips Q4/2023
+324,auction_admin,Executed,560163,161,841123,0,0,False,Addressing LP37 Opening Block Error in Kusama Auctions
+326,treasurer,Rejected,303315,402089,88230,0,0,False,Onboard Brale and Glo Dollar to Kusama AssetHub
+328,whitelisted_caller,Executed,894415,94,1069400,561000,0,False,"Runtime Upgrade v1,001,000"
+329,big_spender,Executed,355449,245964,452559,0,0,False,Proposing Curators for Bounty #25
+330,whitelisted_caller,Executed,1242178,38,1502034,531000,0,False,Update Sufficient Asset Minimum Balances
+333,whitelisted_caller,Executed,849567,786,780721,711000,0,False,Upgrade Kusama Asset Hub to Patch Release v1.1.1
+334,whitelisted_caller,Executed,812387,782,759353,711000,0,False,Clean up undecodable Locks and SessionKeys
+335,medium_spender,Executed,282446,188464,78404,0,0,False,Encointer Retroactive Funding for Sep-Dec 2023
+337,treasurer,Rejected,131009,276301,31912,0,0,False,Onboard Brale and Glo Dollar to Kusama AssetHub v2 - inc ability to cr
+343,whitelisted_caller,Executed,779288,26,871865,549000,0,False,Set BEEFY genesis (thus starting BEEFY consensus on Kusama)
+345,whitelisted_caller,Executed,637160,30,750111,549000,0,False,Setting setOnDemandQueueMaxSize to 500
+348,whitelisted_caller,Executed,805187,51,751568,711000,0,False,"Set `safeXcmVersion` to 3 for AssetHub, BridgeHub and Encointer"
+354,whitelisted_caller,Executed,826520,85,758054,711000,0,False,Initialize Polkadot GRANDPA light-client running on Kusama BridgeHub
+359,whitelisted_caller,Executed,812430,27,748483,711000,0,False,Kusama Runtime Upgrade v1.1.3
+361,whitelisted_caller,Executed,796182,32,745348,711000,0,False,Fund system chains sovereign accounts on Kusama BridgeHub for Polkadot
+362,treasurer,Executed,222370,154146,60529,0,0,False,Funding Brale integration into Kusama Asset Hub to introduce branded s
+364,whitelisted_caller,Executed,797515,60697,736069,711000,0,False,Setting onDemandBaseFee to 0.005 KSM
+370,whitelisted_caller,Executed,863605,24,756631,711000,0,False,Migrate 25k KSM to Asset Hub Treasury
+371,whitelisted_caller,Executed,859859,60,755611,711000,0,False,Bump parachain validation timeouts
+372,whitelisted_caller,Executed,804236,0,867412,711000,0,False,Register Coretime Parachain
+373,whitelisted_caller,Executed,1008133,0,959548,925000,0,False,Upgrade Kusama v1.2.0
+374,whitelisted_caller,Executed,808638,1193,806160,711000,0,False,Enable async backing on kusama
+375,whitelisted_caller,Executed,754321,16174,907505,711000,0,False,Enable Coretime
+377,big_spender,Executed,1232382,325305,816982,857052,0,False,Subscan | Infrastructure Costs of Subscan for Kusama & Asset Hub (Kusa
+379,staking_admin,Rejected,5105,815327,3009,0,711000,False,[Invalid: Vote Nay] Staking Controller Account Deprecation
+380,whitelisted_caller,Executed,1696472,20,1310202,1665193,0,False,Kusama Runtime Upgrade to 1.2.2
+381,medium_spender,Rejected,220148,351237,43938,0,0,False,Potential Funding for PINK
+384,whitelisted_caller,Executed,754346,649,861317,645000,0,False,Register People Chain and upgrade Coretime Chain to v1.2.3
+387,whitelisted_caller,Executed,812322,0,755891,711000,0,False,Upgrade Kusama Relay Chain for People Launch
+388,whitelisted_caller,Executed,802889,0,753542,711000,0,False,Enable Identity Again on People Chain
+392,whitelisted_caller,Executed,804874,558,746853,711000,0,False,Enable approval voting protocol improvements
+393,whitelisted_caller,Executed,1196384,672,1123055,1048700,0,False,Assign core for People Chain directly on relay
+394,big_spender,Rejected,194815,717763,45552,0,204000,False,Bounty Proposal: Russian-speaking community support and development
+397,medium_spender,Executed,205373,118271,47582,0,0,False,Polkadot & Kusama Belgrade 2024 
+400,whitelisted_caller,Executed,1172140,20,866898,915000,0,False,Update Kusama System v1.2.4
+403,wish_for_change,TimedOut,13,384322,250,0,0,False,Wish for change: Place ongoing spend to Kappa Sigma Mu Society pot und
+404,referendum_canceller,Executed,616236,734,273035,0,0,False,Cancels 402 - Wish For Change submitted on right track but with wrong 
+405,whitelisted_caller,Executed,781857,204,955477,275100,0,False,Increase max_validators to 400 and max_validators_per_core to 4
+406,whitelisted_caller,Executed,1538196,0,1003145,1071000,0,False,Upgrade Kusama: v1.2.5
+409,whitelisted_caller,Executed,1129708,0,865408,915000,0,False,Upgrade Kusama: v1.2.6
+410,whitelisted_caller,Executed,1013572,52,821589,867000,0,False,Increase core count to 100
+412,treasurer,Executed,620590,201072,202515,204000,0,False,Three grifts and a comrade
+419,big_spender,Rejected,187672,199675,42394,0,0,False,Proposal for Top-Up for Funding of Kusama System Parachain Collators
+420,big_spender,Rejected,399408,406753,90294,0,0,False,Encointer Retroactive Proposal Jan-Jun 2024
+423,root,TimedOut,10,430311,130,0,204000,False,wrong track ignore
+424,wish_for_change,TimedOut,32286,497852,6529,0,204000,False,WFC: Establish a legal entity or entities to provide limited liability
+425,wish_for_change,TimedOut,18100,503312,5520,0,204000,False,WFC: Negotiate a $30m structured financing deal between Kusama and ABO
+426,wish_for_change,TimedOut,238246,224125,54338,0,204000,False,WFC: Allow OpenGov to change the parameters of the burn redirect if no
+427,big_spender,Rejected,18174,352704,3513,0,0,False,Kusama X It Remains Integration and Promotion
+428,medium_spender,Executed,384479,16825,105173,0,0,False,Reassign the curator of bounty 11
+430,big_spender,TimedOut,83,317133,203,0,156000,False,"[Big Spender] Wrong proposal, please vote nay"
+432,big_spender,Rejected,167934,179436,53031,0,0,False,Mimir 2.0 - multisig optimize and proxy pallet support
+439,big_spender,Rejected,199567,207562,44260,0,0,False,
+443,whitelisted_caller,Executed,1199156,0,883734,915000,0,False,Update Kusama v1.3.0
+444,medium_spender,Executed,593765,455363,156274,204000,0,True,2nd Encointer Retroactive Proposal Jan-Jun 2024 (Waiving Salaries)
+445,big_spender,Executed,622607,416038,156273,204000,0,False,Bounty top-up of the System Parachain Collators funding on Kusama
+450,medium_spender,Executed,166839,166410,37527,0,0,False,Retroactive funding for development of KSM.FUN. Pre-launch phase on Ku
+455,whitelisted_caller,Executed,808474,30,987709,431100,0,False,[Whitelisted Caller] Set AsyncBackingParams.max_candidate_depth to 6
+456,medium_spender,Executed,522918,172703,187773,360000,0,True,Showcasing Polkadot’s Capabilities: The Spammening Test Run
+457,whitelisted_caller,Executed,552713,10,892436,431100,0,False,Fix TotalIssuance
+459,staking_admin,Executed,461663,175,177304,360000,0,False,Cancel Deferred Slash 7126 - Due to application bug
+466,whitelisted_caller,Executed,1089910,5,1038008,979700,0,False,[Whitelisted Caller] Upgrade Kusama to 1.3.4
+471,big_spender,Executed,345332,189987,83431,0,0,False,Retroactive Funding for Brale’s Public Good Stablecoin Integration wit
+472,big_spender,TimedOut,30,311976,422,0,0,False,Nay - wrong preimage
+473,big_spender,TimedOut,30,312535,421,0,0,False,Nay 
+474,big_spender,Executed,278218,189976,61778,0,0,False,Liquidity subsidy for KSM/dUSD Liquidity Pool on Kusama Asset Hub 
+477,treasurer,Executed,790027,103261,256576,0,0,False,Treasury proposal: KSM liquidity subsidy for KSM liquid staking token 
+479,small_spender,Rejected,102780,243660,24525,0,0,False,An Innovative Token Concept On Kusama Asset Hub With Utilities Towards
+480,wish_for_change,Executed,182375,143399,44693,0,0,False,WFC: Update Kusama's asset conversion pallet to enable addition of sin
+481,medium_spender,Rejected,30324,304534,5993,0,0,False,Update: GrowDAO escalating with e-learning platform
+483,small_spender,Rejected,30529,275299,5543,0,0,False,The Innovative Token Concept On Kusama Asset Hub: VCAP - Resubmitted T
+484,whitelisted_caller,Executed,433380,10,855583,71100,0,False,[Whitelisted Caller] Increase max_validators to 600
+486,big_spender,Rejected,255284,555827,67754,0,360000,True,Prestel & Partners: Family Office Investor Conference Series for Polka
+488,whitelisted_caller,Executed,350571,10,827903,275100,0,False,[Whitelisted Caller] Update schedulerParams.lookahead configuration pa
+489,medium_spender,Executed,270556,29750,71360,0,0,False,Encointer Retroactive Proposal for July-Dec 2024
+490,big_spender,Executed,303658,0,95805,0,0,False,Kusama Hydration: Treasury LP
+492,wish_for_change,Executed,189693,179179,60328,0,0,False,[Wish For Change] Kusama brand evolution inc clarifying licensing / tr
+494,whitelisted_caller,Executed,814640,0,979187,275100,0,False,[Whitelisted Caller] Upgrade Kusama to v1.4.0
+498,wish_for_change,Executed,609148,60,199702,360000,0,False,A New Kusama Vision - 10 Million DOT from W3F & Transition Away From B
+499,big_spender,Executed,257330,126479,49875,0,0,False,Empower businesses to launch debit cards and store their value in Kusa
+500,whitelisted_caller,Executed,1442704,0,2195763,535287,0,False,Kusama Runtime Upgrade to v1.4.1
+505,whitelisted_caller,Executed,1142866,0,1171990,439700,0,False,[Runtime 1.4.2] Upgrade Asset Hub
+506,wish_for_change,TimedOut,0,602431,122,0,0,False,Wish for Change: Establish Birdbrain as Kusama’s on-chain innovation a
+507,root,Rejected,3204,347552,9712,0,0,False,Reducing inflation and setting a realistic target for coretime sales
+511,whitelisted_caller,Executed,1303926,0,815432,360000,0,False,[Whitelisted Caller] Increasing max_validators to 700
+514,whitelisted_caller,Executed,1381261,0,1203309,413270,0,False,[Whitelisted Caller] - Register Snowbridge ERC-20 Assets on Kusama
+519,whitelisted_caller,Executed,421352,0,1144343,319170,0,False,[Whitelisted Caller] Upgrade Kusama to v1.5.0
+521,treasurer,Executed,269376,69251,86503,0,0,False,Set Asset rate for DOT/KSM to enable treasury spends of DOT through Ku
+524,whitelisted_caller,Executed,955392,0,2035978,732552,0,False,[Whitelisted Caller] Disable V2 descriptors node feature
+527,small_spender,Executed,392279,50,213866,130000,0,False,Test Transfer of 1 DOT from Kusama Treasury Back to Bill’s Account
+530,whitelisted_caller,Executed,2091062,0,2217762,1746266,0,False,[Whitelisted Caller] Runtime Upgrade to v1.5.1
+536,big_spender,Rejected,116982,537242,35485,0,264540,False,Kusama (ft. Polkadot) x Arcadia: THE SPIDER
+537,wish_for_change,Rejected,202371,211652,39911,0,0,False,Develop a mechanism to lock a percentage of staking rewards as set out
+541,whitelisted_caller,Executed,1408782,25011,1091204,1274320,0,False,Upgrade Kusama Asset Hub to 1.6
+547,whitelisted_caller,Executed,2018399,4,1657902,1472034,0,False,"Upgrade Coretime system chain to 1.6.0, +40 cores"
+556,big_spender,Executed,240328,77047,53672,0,0,False,Kusama System Parachains Collator Bounty #20 Top-Up Proposal - July/20
+558,wish_for_change,Executed,232230,94982,66654,0,0,False,Adjusting the submission deposit
+559,wish_for_change,TimedOut,0,324205,2,0,0,False,WFC Please watch: https://www.youtube.com/watch?v=1cSGvqQHpjs
+560,wish_for_change,Rejected,2470,357544,3125,0,0,False,WFC - KIRA (Kusama Inflation Reduction Act)
+561,medium_spender,Rejected,60563,302883,10299,0,0,False,"argumentree.io : improve decision making processes & decision quality,"
+562,wish_for_change,TimedOut,0,323240,34,0,0,False,Please watch Coinbase introduce the Base stack https://x.com/base/stat
+564,big_spender,Executed,322669,305357,59923,0,0,False,Encointer Retroactive Proposal for Jan-Jun 2025
+565,big_spender,Rejected,0,330979,35,0,0,False,PolkArena: Revolutionizing Events for the Polkadot Era
+567,small_spender,Rejected,128015,211247,26466,0,0,False,Acuity Index: omni-indexer
+568,big_spender,Executed,171164,131514,35691,0,0,False,"Stage 2: Drive massive adoption with the first 20,000 physical debit c"
+569,whitelisted_caller,Executed,2422738,0,884449,1970600,0,False,"[Whitelisted Caller] Upgrade remaining system chains to 1.6.x, enable "
+570,wish_for_change,TimedOut,68068,294993,15168,0,0,False,WFC: W3F please turn off content monetisation on YouTube. Ruins the Su
+571,small_spender,TimedOut,0,357594,2,0,0,False,Please vote nay
+572,small_spender,Executed,224410,132705,47580,0,0,False,Treasury Guardian On-Chain Demo
+573,wish_for_change,Executed,144122,0,42691,0,0,False,Kusama JAM Upgrade: Option A - Lightweight and independent
+579,treasurer,TimedOut,0,318808,7,0,0,False,wrong preimage used. please ignore
+581,big_spender,Executed,299012,71001,65620,0,0,False,Subscan 2025 Q1-Q2 Funding Proposal: Basic service fee for the Kusama 
+582,whitelisted_caller,Rejected,30211,270352,12503,0,260000,True,Superseeded by ref #584
+583,big_spender,Executed,440401,50,113387,0,0,False,Referendum Update for Polkadot and Kusama Bridge Bounties  - New curat
+584,whitelisted_caller,Executed,521062,0,1135428,355370,0,False,[Whitelisted Caller] Upgrade Kusama RC and system chains to 1.7.1
+585,whitelisted_caller,Executed,2270285,0,896683,1980000,0,False,[Whitelisted Caller] Update ERC-20 asset metadata and register WUD tok
+586,whitelisted_caller,Executed,1586144,74,918575,1576320,0,False,[Whitelisted Caller] Reduce the number of pending messages allowed in 
+587,big_spender,Executed,307199,129480,63865,0,0,False,Web3 Without Barriers: Virto Connect
+588,medium_spender,Rejected,0,360442,4,0,0,False,Error vote Nay
+589,root,Rejected,7346,400473,4007,0,200770,False,Please vote NAY - [Root] Kusama Inflation Parameters for Asset Hub Mig
+590,root,Cancelled,1622816,0,2263143,1363320,0,False,Deregister paraID 2114: Turing Network
+591,small_spender,Rejected,134047,233249,27973,0,0,False,Implement pallet_content
+593,small_spender,TimedOut,0,389425,4,0,0,False,Error vote Nay
+594,big_spender,Rejected,20480,358436,8462,0,0,False,Enterprise Onboarding & Institutional Collaborations for Kusama in Nig
+595,whitelisted_caller,Executed,747656,0,1094936,589170,0,False,Register USDT and USDC (Polkadot) on Kusama Asset Hub
+596,wish_for_change,Rejected,172257,315229,52857,0,0,False,Hard Pressure Capped & Stepped Supply Schedule
+597,treasurer,Executed,221571,130324,44926,0,0,False,Delay Demo #2 Treasury Guardian
+599,whitelisted_caller,Executed,1038930,0,917323,871320,0,False,[Resubmission of Ref 589] Kusama Inflation Parameters for Asset Hub Mi
+600,whitelisted_caller,Cancelled,76,165844,314,0,0,False,"Cancelled, need to make a new ref"
+601,whitelisted_caller,Executed,696847,0,1585367,670770,0,False,Runtime Upgrade 1.9.1 and Invulnerable Set Extension
+602,small_spender,Rejected,60070,269751,10080,0,0,False,Referendum Alert: Real-Time OpenGov Vote Notifications on Telegram
+603,medium_spender,Executed,259161,159298,62272,0,0,False,Implement a Kusama Forum MVP (Content Pallet v2)
+604,medium_spender,TimedOut,0,322851,5,0,0,False,Enterprise Adoption & Institutional Collaborations for Kusama in Niger
+609,medium_spender,Executed,396638,1,99122,0,0,False,Refund of Early OpenGov Submission Deposits
+610,small_spender,Executed,295444,60339,77453,0,0,False,[Small Spender] Tip for Dark Prague Oct 3-5 2025
+611,whitelisted_caller,Executed,1849514,0,2475884,1495900,0,False,[Whitelisted Caller] Upgrade Kusama AH to v2.0.1
+612,wish_for_change,Rejected,270497,372041,75419,0,0,False,Wish for Change: Deploy Native Proof of Personhood Pallets on Kusama I
+613,whitelisted_caller,Executed,279153,45000,1112913,105450,0,False,[Whitelisted Caller] Encointer runtime upgrade to 2.0.0
+614,whitelisted_caller,Executed,1687627,0,2092510,1461350,0,False,Upgrade Hub To 2.0.2
+615,treasurer,Executed,478602,3,123309,0,0,False,Set KSM/DOT Asset Rate Locations on Kusama Asset Hub (Post-Migration R
+616,small_spender,Executed,479957,0,131572,0,0,False,Reimbursement of 102 KSM Lost Due to Incorrect Reserve Selection in XC
+617,medium_spender,Rejected,102537,343288,24743,0,0,False,[Medium Spender] Referendum #617
+618,whitelisted_caller,Executed,1836774,0,870341,1330000,0,False,[Whitelisted Caller] Upgrade Kusama Asset Hub to fellows release v2.0.
+619,wish_for_change,TimedOut,102476,396897,23857,0,0,False,Wish For Change: Make Kusama Treasury Self-Financing
+620,wish_for_change,TimedOut,27,499346,29,0,0,False,Introducing PARITY INDEX: A New Kusama Defi & Entertainment Hub Built 
+621,wish_for_change,TimedOut,0,426408,2,0,0,False,Wish for Change: Pilot the first physically-backed and guaranteed Real
+622,whitelisted_caller,Executed,1885635,0,1387083,1381700,0,False,[Whitelisted Caller] Referendum #622
+623,wish_for_change,TimedOut,0,395420,1,0,0,False,Wish for change: Four To The Floor x Kusama
+624,whitelisted_caller,Executed,1992625,0,2189315,1461350,0,False,Upgrade Kusama System to the v2.0.4 release
+625,wish_for_change,TimedOut,32291,361190,5465,0,0,False,"[WFC] Halving, maximum supply and zero minimum commission rate "
+626,general_admin,Executed,305091,0,102849,0,0,False,ECH0.RE Registrar Application
+627,wish_for_change,Rejected,317068,808473,107254,0,537500,True, Sustainable KSM Economics via Burn Mechanisms (v1.2)
+628,whitelisted_caller,Executed,416883,0,1408501,131350,0,False,[Whitelisted Caller] Change config schedulerParams.lookahead to 5
+632,small_spender,Rejected,0,308524,1,0,0,False,Please Vote Nay
+633,whitelisted_caller,Executed,1701819,0,1484237,1396700,0,False,Runtime Upgrade 2.0.6
+635,whitelisted_caller,Executed,1953587,0,1315209,1370800,0,False,Runtime Upgrade to version 2.0.7
+636,big_spender,Rejected,326617,389664,66328,0,0,False,Encointer Retroactive Treasury Proposal for July-Dec 2025
+637,whitelisted_caller,Executed,1990767,0,1703450,1409570,0,False,Runtime Upgrade 2.1.0
+639,small_spender,Rejected,1,306592,2,0,0,False,X-Crystal is now live
+640,wish_for_change,Rejected,5328,270973,1502,0,0,False,[WFC] No Fellowship Removal Without Kusama Vote
+642,treasurer,Rejected,42,305373,15,0,0,False,System Parachain Collator Bounty - Top up (2026) - Please vote NAY
+643,big_spender,Executed,1629715,278951,812308,1594400,0,True,System Parachain Collator - Top up 2026 - Revised.
+644,whitelisted_caller,Executed,1995053,0,1704901,1409720,0,False,Runtime Upgrade v2.2 For All System Chains
+645,medium_spender,Rejected,345842,346749,67577,0,0,False,[Medium Spender] Encointer System Chain – Infrastructure Operations (A
+646,medium_spender,Rejected,6587,314424,1953,0,0,False,DeServe.network Global Kusama Archive RPC Deployment - Proposal #1
+647,small_spender,Executed,1051145,290603,1047856,1047000,0,True,[Small Spender] Set up the Kusama Vision POP Multi-Asset Bounty
+648,small_spender,Executed,1051245,0,1048316,1047000,0,False,[Small Spender] Set up the Kusama Vision Art and Social Experiments Mu
+649,small_spender,Executed,1051245,290503,1047906,1047000,0,True,[Small Spender] Set up the Kusama Vision ZKProofs Multi-Asset Bounty
+650,big_spender,Executed,1621289,291633,807938,1594400,0,True,Funding for Public RPC Providers (Kusama)
+652,treasurer,Executed,1778183,289513,1778046,1778000,0,True,[Invoice] Subscan Explorer - Kusama 2025 Q3-Q4 SaaS Infrastructure Set
+653,treasurer,Executed,1778183,289513,1778046,1778000,0,True,Subscan Enterprise Explorer License - Kusama 2026 Milestone-Based Serv
+654,wish_for_change,Executed,284697,0,1657038,0,0,False,Bifrost KSM Liquidity Loan — Renewal
+655,whitelisted_caller,Executed,1995987,23581,964959,1330000,0,False,Validator set reduction to 700
+659,big_spender,Executed,1778150,281385,1778150,1778000,0,True,Kusama System Collator Bounty 2nd Top-up - 2026
+665,small_tipper,Deciding,0,0,0,0,0,False,Bounty: fund memberships only for people the room can vouch for
