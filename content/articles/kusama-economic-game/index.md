@@ -26,9 +26,9 @@ related:
 
 **A research note on the decision machinery behind Kusama's JAM-era choice.**
 
-*25 September 2026, by Birdbrain. Figures read from Kusama Asset Hub at block 21,805,917 and from the Subsquare vote index the same day. Every figure is in the `data/` folder next to this note.*
+*25 September 2026, by Birdbrain. Figures read from Kusama Asset Hub at block 21,805,917 and from the Subsquare vote index the same day. Every figure is in the* `data/` *folder next to this note.*
 
-**TL;DR.** The discussion of Kusama's future has been about strategy: independence or canary, how many cores, at what price. Very little of it has been about how any of those directions would actually be enacted. Kusama is a single-asset game. Every decision is settled in one numeraire, KSM balance multiplied by conviction, and whoever holds enough of it decides. On the record of 245 referenda, one block of about 20 unlabelled accounts, voting in perfect lockstep, holds roughly **2.56 million KSM: 13.6% of all KSM and 29% of all staked KSM.** Five of those accounts are the source of Web3 Foundation's own Decentralized Voices delegations. The block took part in 110 of the referenda we sampled, carried a median 77% of the weight cast in them, and reversed the outcome of 12, eight of them in 2026. The largest organised voice outside it, ChaosDAO, carries about 90,000 delegated KSM, of which 80,000 comes from a single account. JAM Prime would end staking issuance for the 8.8 million KSM that is staked today, and it would be decided by the same KSM. We think the people proposing a direction, and the people holding the weight, should say plainly how they expect it to be enacted.
+**TL;DR.** The discussion of Kusama's future has been about strategy: independence or canary, how many cores, at what price. Very little of it has been about how any of those directions would actually be enacted. Kusama is a single-asset game. Every decision is settled in one numeraire, KSM balance multiplied by conviction, and whoever holds enough of it decides. On the record of 245 referenda, one block of about 20 unlabelled accounts, voting in perfect lockstep, holds roughly **2.56 million KSM: 13.6% of all KSM and 29% of all staked KSM.** Five of those accounts are the source of Web3 Foundation's own Decentralized Voices delegations. The block took part in 110 of the referenda we sampled, carried a median 77% of the weight cast in them, and reversed the outcome of 12, eight of them in 2026. The largest organised voice outside it, ChaosDAO, carries about 90,000 delegated KSM, of which 80,000 comes from a single account. JAM Prime would potentially end staking issuance for the 8.8 million KSM that is staked today, and it would be decided by the same KSM. We think the people proposing a direction, and the people holding the weight, should say plainly how they expect it to be enacted.
 
 ---
 
@@ -42,7 +42,9 @@ The [JAM Prime paper](https://github.com/sdfinst/publications/blob/a445bba7ab5a8
 
 Two of those parties hold the resources outright. The 10 million DOT recorded in [WFC #498](https://kusama.subsquare.io/referenda/498) came from Web3 Foundation's own treasury, and the paper itself says W3F's authorisation of its contribution is separate from anything KSM DAO decides. That money moves at W3F's discretion. Everything else, the direction, the reversal of #573, the monetary redesign, the end of the validator set, has to pass through KSM governance.
 
-The paper does not say whose KSM would pass it. Nor, so far, has anyone in the thread. The confidence of the proposition, and much of the engagement with it, reads as though the enacting weight were already known. We do not think a paper by a team with no route into W3F and Parity's strategic thinking, and no stake behind it, would have been received this way. It would have been read as one more Wish for Change, of which Kusama has had 48.
+The paper does not say whose KSM would pass it. Nor, so far, has anyone in the thread. 
+
+The confidence of the proposition, and much of the engagement with it, reads as though the enacting weight were already known. We do not think a paper by a team with no route into W3F and Parity's strategic thinking, and no stake behind it, would have been received this way. It would have been read as one more Wish for Change, of which Kusama has had 48.
 
 That is not a criticism of the authors. They declare more than most: a JAM implementation project, business interests in staking operations, ventures that would use JAM infrastructure, and exposure to both ecosystems. It is a description of how the game works, and it is the part of the conversation we would like to make explicit.
 
@@ -66,12 +68,12 @@ We read every vote in 245 referenda (every one with more than 300,000 conviction
 We split them into two tiers, because we can prove one and can only infer the other.
 
 | Tier | Accounts | KSM held today | How we know |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | A | 7 | 656,816 | Each was the source of a 5,000 KSM delegation at 6x to a Decentralized Voices delegate. [Web3 Foundation states](https://medium.com/web3foundation/decentralized-voices-program-93623c27ae43) that it delegates its own KSM to that programme, in exactly that shape. Five of the seven also vote directly with 124,000 to 130,000 KSM each. |
 | B | 17 | 1,907,597 | No identity, same size, same staking pattern, and the same vote as tier A in every referendum both took part in. We cannot see who controls them. |
 | **Block** | **24** | **2,564,413** | **13.6% of all KSM (18,885,656). 29.1% of all staked KSM (8,800,865).** |
 
-We cannot tell Web3 Foundation's accounts from Parity's on chain, and we have not tried to. We call it the W3F/Parity-aligned block because tier A is W3F's by W3F's own description, and tier B moves with it without exception. If any of tier B belongs to someone else, we would welcome the correction, and the list is in `data/block-accounts.csv`.
+We cannot tell Web3 Foundation's accounts from Parity's on chain, and we have not tried to. We call it the W3F/Parity-aligned block because tier A is W3F's by W3F's own description, and tier B moves with it without exception. If any of tier B belongs to someone else, we would welcome the correction, and the list is in `file data/block-accounts.csv`.
 
 At 1x conviction the block is 2.56 million votes. At 6x it is 15.4 million. The largest aye tally in Kusama's OpenGov history is 2.42 million.
 
@@ -84,7 +86,7 @@ Beyond that, the Decentralized Voices delegates each carry 30,000 votes of W3F's
 **The block is the swing vote whenever it chooses to be one.** It took part in 110 of the 245 referenda we sampled and carried a median 77% of the weight cast in them. In 12 of them, removing its votes reverses the result, and eight of those were this year:
 
 | Ref | Date | What | Block | Result |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | [#627](https://kusama.subsquare.io/referenda/627) | Jan 2026 | Sustainable KSM Economics via Burn Mechanisms | 537,500 nay | Rejected |
 | [#643](https://kusama.subsquare.io/referenda/643) | Mar 2026 | System Parachain Collator top-up | 1,594,400 aye | Executed |
 | [#647](https://kusama.subsquare.io/referenda/647) | May 2026 | Kusama Vision Proof of Personhood bounty | 1,047,000 aye | Executed |
@@ -106,7 +108,9 @@ Polkadot runs the same machinery on a larger asset, and its record is both a dem
 
 ## 6. What JAM Prime changes in the game
 
-The JAM Prime proposal would retire Kusama's validator set. Today 8,800,865 KSM, 46.6% of the supply, is staked, and staking issuance is what it earns. The proposal replaces that with a DOT-settled endowment, a planned hard cap and burns, and, in Emiel's words at [#26](https://forum.polkadot.network/t/a-proposal-for-a-kusama-future-on-jam-prime/18683/26), an assumption that released KSM will not all be sold that is "too strong", and an assumption of no economic effect that would be "equally careless".
+The initial JAM Prime offer proposes to retire Kusama's validator set. Today 8,800,865 KSM, 46.6% of the supply, is staked, and staking issuance is what it earns. The proposal replaces that with a DOT-settled endowment, a planned hard cap and burns, and, in Emiel's words at [#26](https://forum.polkadot.network/t/a-proposal-for-a-kusama-future-on-jam-prime/18683/26), an assumption that released KSM will not all be sold that is "too strong", and an assumption of no economic effect that would be "equally careless".
+
+The same post goes further: "we believe monetary redesign should be central to the migration proposal: a hard supply cap and burns designed to give KSM deflationary properties." We reject the assumptions behind that outright. KSM DAO has been asked this question three times and has said no each time: the capped and stepped supply schedule in [#596](https://kusama.subsquare.io/referenda/596) (35% aye), halving and a maximum supply in [#625](https://kusama.subsquare.io/referenda/625) (8% aye, timed out), and the burn mechanism in [#627](https://kusama.subsquare.io/referenda/627) (28% aye). The teams building where Kusama's demand is actually growing, paid memberships on Kreivo and Bloque's card and stablecoin users, point the other way. Issuance that buys something which compounds tightens supply because people are joining, without anyone legislating scarcity. We set that case out in [Kusama Futures in the JAM Era](https://forum.polkadot.network/t/kusama-futures-in-the-jam-era/18482/2). A cap assumes the network's best use of its own money is not to have any, and a migration proposal that makes it central is deciding the demand question before looking at the demand.
 
 What it does not change is the voting machinery. OpenGov weight is balance times conviction, not stake, so the people asked to decide are the same holders whose yield the proposal removes. The block alone holds 29% of staked KSM. The question every large holder faces is simple: does this direction serve my basic economic interest better than the alternatives?
 
@@ -129,14 +133,14 @@ Both sets of instincts matter. But when the question is which instincts should d
 
 ## Appendix A. Method, data and limits
 
-**Referenda sampled.** Every Kusama OpenGov referendum from #0 to #666 with more than 300,000 conviction-weighted votes cast (240), plus #573, #600, #640, #654 and #665, for 245 in all. Votes from `kusama-api.subsquare.io/gov2/referenda/<n>/votes`, read 25 September 2026. `data/referenda-sample.csv` has each referendum's tally, the block's votes and whether removing them flips aye against nay.
+**Referenda sampled.** Every Kusama OpenGov referendum from #0 to #666 with more than 300,000 conviction-weighted votes cast (240), plus #573, #600, #640, #654 and #665, for 245 in all. Votes from `kusama-api.subsquare.io/gov2/referenda/<n>/votes`, read 25 September 2026. `file data/referenda-sample.csv` has each referendum's tally, the block's votes and whether removing them flips aye against nay.
 
 **Identities.** `identity.identityOf` and `identity.superOf` on the Kusama People chain for all 2,899 accounts that voted or were delegated to in the sample.
 
-**The block.** Tier A is any account that delegated exactly 5,000 KSM at 6x to a Decentralized Voices delegate, the shape W3F describes. Tier B is any account with no identity, at least 50,000 KSM in a single direct vote, and 100% agreement with the majority side of tier A across at least three shared referenda, plus the two proxy accounts that voted #498. `data/block-accounts.csv` lists every account and the evidence for each.
+**The block.** Tier A is any account that delegated exactly 5,000 KSM at 6x to a Decentralized Voices delegate, the shape W3F describes. Tier B is any account with no identity, at least 50,000 KSM in a single direct vote, and 100% agreement with the majority side of tier A across at least three shared referenda, plus the two proxy accounts that voted #498. `file data/block-accounts.csv` lists every account and the evidence for each.
 
-**Balances.** `system.account` on Kusama Asset Hub at block 21,805,917 (free plus reserved; frozen shown separately). Total issuance, active era and total stake from the same block. `data/chain-snapshot.json`.
+**Balances.** `system.account` on Kusama Asset Hub at block 21,805,917 (free plus reserved; frozen shown separately). Total issuance, active era and total stake from the same block. `file data/chain-snapshot.json`.
 
-**ChaosDAO.** Delegations to `DCZyhphXsRLcW84G9WmWEXtAA8DKGtVGSFZLJYty8Ajjyfa` on #596, #627, #650 and #659, in `data/chaosdao-delegations.csv`.
+**ChaosDAO.** Delegations to `DCZyhphXsRLcW84G9WmWEXtAA8DKGtVGSFZLJYty8Ajjyfa` on #596, #627, #650 and #659, in `file data/chaosdao-delegations.csv`.
 
 **Limits.** The block could be larger: exchange, custodial and liquid-staking balances are invisible here, as is any account that shares the block's controller but never voted with it. It could be smaller: tier B is an inference from behaviour, not a disclosure. "Flips the outcome" compares ayes with nays after conviction and ignores the approval and support curves, so it is a floor on the block's influence rather than a full reconstruction. We have not tried to attribute any account to a named person, and we would ask readers not to either. The point is the machinery, not the players.
