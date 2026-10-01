@@ -2,9 +2,15 @@
 
 All notable changes to this publication are recorded here. Released editions are immutable and identified by their Git tag and commit SHA.
 
-## Unreleased | 2026-09-23
+## 0.2.0 | 2026-10-01
 
-- Changelog entries for 0.1.3 to 0.1.9 no longer name a component the paper has since dropped. The paper text is unchanged.
+- Adds §9, a stress test of the security financing against a lower KSM price, revenue that never arrives and the costs before the smaller set runs, in response to Emiel Sebastiaan at #26. Includes the "who delivers, who pays, what is unverified, what if it fails" table he asked every proposal for.
+- Corrects §2: earlier editions compared all staking issuance with the operator-cost benchmark and said issuance paid for a #573-sized set 1.7 times over. Only the commission share, 21 to 30% on chain, reaches operators. Held to the benchmark, the plan only works above about US$5.50 a KSM.
+- Changes the design: validator seats are paid by commission, with a treasury backstop capped at 40% of net inflow, and a fixed order of draws when inflow runs short (security, fellowship floor, rest of fellowship, onboarding).
+- §1 answers which proposals need control of consensus: three do (a job for staked KSM, issuance as the security budget, groups bringing their own stake), the rest would run on shared infrastructure.
+- §5 revenue bar recomputed (US$2.76m a year, not US$1.46m). §7 says the Polkadot Fellowship has not yet been asked to continue stewardship. §8 gains a fifth checkpoint. Appendix A gains the 1 October readings.
+- Changelog entries for 0.1.3 to 0.1.9 no longer name a component the paper has since dropped.
+- Release tag: `publication/independent-kusama/v0.2.0`.
 
 ## 0.1.9 | 2026-09-23
 
