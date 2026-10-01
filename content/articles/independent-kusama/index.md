@@ -6,7 +6,7 @@ summary: A position paper proposing that Kusama become the network where anyone 
 authors:
   - Birdbrain
 published: 2026-09-23
-updated: 2026-09-23
+updated: 2026-10-01
 tags:
   - kusama
   - governance
@@ -15,7 +15,7 @@ tags:
   - jam
 status: published
 publicationType: position-paper
-edition: 0.1.9
+edition: 0.2.0
 license: CC-BY-4.0
 responds_to: https://github.com/sdfinst/publications/blob/a445bba7ab5a801e3b85168551dfa8b1e5021bc2/content/articles/proposal-kusama-future-jam-prime/index.md
 ---
@@ -33,7 +33,7 @@ responds_to: https://github.com/sdfinst/publications/blob/a445bba7ab5a801e3b8516
 
 Kusama should be the network where groups of people grow their collective intelligence and own what it is made of: their identity, their membership, their record, the permission over it, their treasury and their rules.
 
-**We propose keeping the direction KSM DAO already voted for in [#573](https://kusama.subsquare.io/referenda/573), a light and independent JAM, and funding it from what Kusama already has rather than by paying Polkadot.** Right-size security to demand. Give staked KSM a job on Kusama's own validator set. Stop selling the treasury and spend its surplus on members. Build the route from real revenue to the security budget during the runway, and measure it. If it fails the measures, KSM DAO goes to DOT DAO later with numbers rather than with a request.
+**We propose keeping the direction KSM DAO already voted for in [#573](https://kusama.subsquare.io/referenda/573), a light and independent JAM, and funding it from what Kusama already has rather than by paying Polkadot.** Right-size security to demand. Give staked KSM a job on Kusama's own validator set. Stop selling the treasury and spend its surplus on members. Build the route from real revenue to the security budget during the runway, and measure it. Stress-tested at a lower price with no revenue at all (§9), the plan holds security and the reserve and slows the timetable instead. If it fails the measures, KSM DAO goes to DOT DAO later with numbers rather than with a request.
 
 Most of the parts are already on Kusama, built by several teams, and a first 8 KSM test of spending treasury money only on people a live session can vouch for is now on chain as [Referendum 665](https://kusama.subsquare.io/referenda/665). Demand comes from people taking part in groups early and from the use of what those groups make, not from selling claims ahead of the work.
 
@@ -130,16 +130,31 @@ Rom1 asks at #21 whether Kusama wants to be more independent or a better canary 
 - **A canary role is a service, not an identity.** Emiel suggests at #20 that Kusama could adopt Parachain Service upgrades ahead of Polkadot, which is real value to Polkadot. If Polkadot wants that, it can buy it. Kusama running someone else's risk is a reason for Kusama to be paid, not a reason for Kusama to pay US$8.64m.
 - **The frontier needs room.** steven puts it well at #19: "A testnet tests technology. A frontier tests institutions." Institutions only get tested where the rules can differ. That means Kusama's own governance, its own monetary policy and its own validator set.
 
+### What needs control of consensus, and what does not
+
+Emiel asks at #26 which experiments need control of the underlying consensus, rather than authority within Kusama's own domain. It is a fair test, and most of what this paper proposes does not pass it.
+
+Memberships, the record, permissions, the treasury rule, the onboarding facility, paid queries and the stablecoin all run on parachains and Asset Hub. They would run the same on JAM Prime, provided the sovereignty protections in the JAM Prime paper's Appendix A held. So would governance, and so in principle would monetary policy, if KSM DAO kept protected authority over issuance as that paper proposes.
+
+Three things do need Kusama's own validator set:
+
+1. **A job for staked KSM.** 8.77m KSM is staked today, 46% of all KSM. On a shared set secured by DOT, that stake has nothing to secure. red's question at #18 has no answer under Scenario 5B, and the JAM Prime paper sets Scenario 5A aside because it doubts DOT DAO would take on a multi-token settlement.
+2. **Issuance as the security budget.** The taper in §2 ties issuance to measured revenue because issuance pays for security. With security prepaid in DOT, issuance stops paying for anything on Kusama, and the only coherent policy left is the cap and burns that KSM DAO has rejected three times (#596, #625, #627).
+3. **Groups bringing their own stake.** The second job in §3, collectives posting KSM behind the set that secures them, needs a set that KSM secures.
+
+The case for independence therefore rests on what KSM is for. The experiments alone do not need a validator set of Kusama's own.
+
 ## 2. Security, sized to demand and paid for today
 
 #573 specifies 32 cores, one-second blocks and KSM as the native token for staking, storage and coretime. Using the JAM Prime paper's own ratio of 3 validators per core, that is about **96 validators**. At the paper's own benchmark of US$3,000 a validator-month, that costs **US$3.46m a year**.
 
-Kusama already pays for more than that. It issues about 1.34m KSM a year to staking, which is **US$5.9m at US$4.42**. At today's price, today's issuance pays for a #573-sized set 1.7 times over. Nobody has to sell the treasury and nobody has to ask DOT DAO for anything.
+Kusama issues about 1.35m KSM a year to staking, about US$7.0m at US$5.16. Earlier editions compared that whole figure with the US$3.46m bill and said today's issuance pays for a #573-sized set 1.7 times over. Emiel showed at #26 that this overstates the money available, and he is right. Most staking issuance goes to nominators as the return on their stake, not to the people running the machines. On chain, validators keep 21 to 30% of it as commission, so at today's price the part that reaches operators is US$1.5m to US$2.1m, short of the US$3.46m benchmark. §9 tests the financing properly, against a lower price, late revenue and the costs before the smaller set runs, and says what gives first.
 
-The costs are not the problem. The problem is that issuance at that level is around 7% a year, and #573 wants it at around 2.4%. At 2.4%, issuance is worth about US$2.0m, which leaves a gap of roughly US$1.46m against the US$3.46m bill. So we propose:
+The second problem is that issuance at that level is around 7% a year, and #573 wants it at around 2.4%. So we propose:
 
 - **Shrink the set in stages** from 700 towards the #573 configuration, as #655 already began.
 - **Taper issuance against revenue, not against a calendar.** Issuance steps down each time measured protocol revenue (§5) covers another slice of the security bill. If revenue does not arrive, issuance does not fall, and the DAO can see why.
+- **Pay seats by commission, and keep the treasury as a capped backstop** rather than a salary. §9 sets out why and what the cap is.
 
 ## 3. What staked KSM is for
 
@@ -183,7 +198,7 @@ This route does not exist yet, and we would rather say so first. Today, **no mec
 | Canary services to Polkadot | Proposed. Priced, if DOT DAO wants it. |
 | Metered queries against collectives' records | Built and priced (0.01 dUSD per query plus 0.001 per row). It has settled seven payments on mainnet, all between our own keys, so it proves the payments work but not that anyone outside wants it. |
 
-The arithmetic sets the bar. Covering the #573 gap of US$1.46m a year from a 1% fee takes US$146m of payment volume. Across one million members that is US$146 each a year, about US$12 a month. That is arithmetic, not a forecast.
+The arithmetic sets the bar. At 2.4% issuance, about 454,000 KSM a year, the commission share reaching operators is about US$0.7m at US$5.16, so revenue would have to cover about US$2.76m of the US$3.46m benchmark before issuance could reach #573's level. From a 1% fee that takes US$276m of payment volume. Across one million members that is US$276 each a year, about US$23 a month. That is arithmetic, not a forecast, and §9 assumes none of it arrives.
 
 ## 6. Kusama Vision and the builders
 
@@ -194,7 +209,8 @@ Leave #498 alone. Its 10m DOT was committed "for the sole benefit of Kusama" and
 Emiel is right at #20 that an independent fellowship needs identified maintainers, a defined scope, a migration plan, a budget, security review, incident response and continuity. We take that list as the conditions. So:
 
 - **The [Polkadot Fellowship](https://github.com/polkadot-fellows)'s stewardship is not given up** until a successor meets all seven conditions and KSM DAO votes that it does.
-- **The budget is paid from treasury inflow, not the reserve.** Paseo's reference of US$62,500 a quarter, US$250,000 a year, is a floor, not an estimate. A realistic migration year is likely a multiple of that. At US$1m a year it is about 226,000 KSM, which together with the onboarding facility still fits inside net inflow.
+- **The budget is paid from treasury inflow, not the reserve.** Paseo's reference of US$62,500 a quarter, US$250,000 a year, is a floor, not an estimate. A realistic migration year is likely a multiple of that. At US$1m a year it is about 194,000 KSM at today's price. Whether that fits inside net inflow alongside everything else depends on the price, and §9 shows where it stops fitting.
+- **The current stewards have to agree.** Emiel is right at #26 that keeping the Fellowship's stewardship is a continuity objective, not a fact. Nobody has asked the Polkadot Fellowship yet. The ask would be specific: keep maintaining Kusama's runtime for a defined term, paid from Kusama's treasury, while a successor is recruited against the seven conditions, with handover only after KSM DAO votes that they are met.
 - **Maintainers apply in public,** against the published scope, before any money is committed.
 
 We cannot name the maintainers, and we should not be the ones who do. This section says what a credible call for them would require.
@@ -207,22 +223,99 @@ Every claim above should be labelled as built, borrowed, experimental or propose
 2. The onboarding facility has admitted at least 100,000 members, and at least a quarter of them are still active after six months.
 3. There is a fellowship with named maintainers and a published migration plan, and a governed route from at least one revenue source to the security budget has been built.
 4. The standing treasury balance is no lower than at the start.
+5. The validator set has stayed full at its target size, with any treasury backstop (§9) paid inside its cap.
 
 If the checkpoints are missed, KSM DAO reopens cohabitation. It would then do so with a real economy on the books, which is the "differentiated, connected economy" §3.6 of the JAM Prime paper says DOT DAO needs to see. So independence first is also the way to a cheaper deal later.
+
+## 9. Stress test: a lower price, late revenue and the cost before the smaller set runs
+
+Emiel asked at #26 that the financing be tested against three things: a lower KSM price, revenue arriving late, and the costs incurred before the smaller configuration is running. He also set a general test for every proposal in the thread: who delivers, who pays, which assumptions are unverified and what happens when they fail. This section does both. Every figure was read from Kusama Asset Hub on 1 October 2026 unless marked.
+
+**What reaches operators.** Kusama issues about 1.35m KSM a year to staking (923.6 KSM an era, averaged over the last eight eras, four eras a day). In era 10098, all 700 validators charged at least 15% commission, the median was 20% and the mean 30%. Seventy-eight charge 100%, so nothing passes through them to nominators, and leaving them out the mean is 21%. Validators' own bonds are 0.5% of the stake behind them, so what they earn on their own stake barely moves the total. We take operators' share of issuance as 21 to 30%, and use 30% unless marked.
+
+**Revenue is assumed to be zero throughout.** No route from Kusama-side revenue to security exists today (§5), so the test assumes none is built. That makes "late revenue" the base case rather than a scenario.
+
+### Test 1: hold the shared benchmark
+
+First, the test Emiel set: pay 96 validators US$3,000 a month each, US$3.46m a year, with commission covering what it can and the treasury covering the rest, alongside a US$1m fellowship budget and the 30,000 KSM onboarding facility. The treasury's net inflow is about 434,000 KSM a year.
+
+| KSM price | Commission to operators | Treasury top-up needed | Fellowship, US$1m | Total treasury draw | Against 434,000 KSM inflow |
+|---|---|---|---|---|---|
+| US$8.00 | US$3.24m | 27,000 KSM | 125,000 KSM | 182,000 KSM | Fits |
+| US$5.16, today | US$2.09m | 265,000 KSM | 194,000 KSM | 489,000 KSM | 55,000 KSM short |
+| US$4.42, 23 September | US$1.79m | 377,000 KSM | 226,000 KSM | 634,000 KSM | 200,000 KSM short |
+| US$2.87, 12-month low | US$1.16m | 800,000 KSM | 348,000 KSM | 1,178,000 KSM | 744,000 KSM short |
+| US$2.00 | US$0.81m | 1,323,000 KSM | 500,000 KSM | 1,853,000 KSM | 1,419,000 KSM short |
+
+Held to the benchmark, the plan as earlier editions wrote it only works above about **US$5.50 a KSM**. At the 21% commission share the line is US$6.50. If the fellowship costs US$2m and the treasury's inflow halves, it is US$9.20 to US$11.60. It fails at today's price, and it failed at the price the paper was written at. Inflow is also less steady than the annual figure suggests: the treasury held 889,111 KSM on 18 September and 892,057 today, so over those thirteen days it barely grew.
+
+### Test 2: what a seat is actually paid
+
+The benchmark is the JAM Prime paper's, and we used it so the two proposals would be priced on the same terms. The chain suggests it is not what a Kusama seat costs. All 700 seats are filled today, and at 30% of issuance and US$5.16 the average validator earns about **US$249 a month** in commission. Shrinking the set does not reduce issuance, so pay per seat rises as seats go:
+
+| KSM price | Per seat at 700, today's set | Per seat at 200 | Per seat at 96, 30% share | Per seat at 96, 21% share |
+|---|---|---|---|---|
+| US$8.00 | US$385 | US$1,348 | US$2,809 | US$1,966 |
+| US$5.16 | US$249 | US$869 | US$1,812 | US$1,268 |
+| US$4.42 | US$213 | US$745 | US$1,552 | US$1,086 |
+| US$2.87 | US$138 | US$484 | US$1,008 | US$705 |
+| US$2.00 | US$96 | US$337 | US$702 | US$492 |
+
+At US$2.00 and the lower commission share, a seat in the smaller set still earns about twice what today's average seat earns at today's price. That is evidence, not proof. Some of today's operators have income from elsewhere, and a set of 96 has to be run better than a set of 700. We do not know what the right figure is, which is why the design below does not depend on knowing it.
+
+### What changes in the design
+
+1. **Seats are paid by commission, as they are today.** The paper no longer promises operators the benchmark.
+2. **The treasury is a backstop with a cap.** If the set falls below its target size, or misses its performance thresholds, the treasury tops up pay per seat, up to at most 40% of trailing net inflow, about 174,000 KSM a year at today's rate. Each top-up is a referendum.
+3. **Draws come in a fixed order when inflow runs short:** the security backstop first, then the fellowship's US$250,000 floor, then the rest of the fellowship budget, then the onboarding facility. Onboarding is the first thing to pause.
+4. **The reserve is not drawn,** except by a referendum declaring a security emergency.
+5. **Issuance does not taper without revenue,** as §2 already says.
+
+### The worst case we tested
+
+KSM at US$2.87, the treasury's inflow halved to 217,000 KSM, no revenue at all, a fellowship that wants US$2m a year, and 21% to 30% commission share:
+
+- **Security.** Commission pays US$705 to US$1,008 a seat a month. The capped backstop adds about 87,000 KSM, about US$216 a seat. The set is paid three to five times what today's average seat earns.
+- **The fellowship** gets its US$250,000 floor and about US$124,000 more, against the US$2m it wants. Migration to the light JAM slows.
+- **Onboarding** pauses. Bounty 01 and anything already awarded continue.
+- **The reserve** is untouched.
+- **Issuance** stays at about 7% a year. Holders who do not stake pay for that through dilution, as they do today.
+
+So under stress, what gives is the timetable and the onboarding facility, not security or the reserve. The price of independence under stress is what Kusama already pays.
+
+### The costs before the smaller set runs
+
+- **Shrinking the set costs no new money.** The same issuance is spread over fewer seats, as #655 began, and pay per seat rises at each step (the table above). Nominators of seats that close can move their stake to seats that remain, so the KSM does not have to leave staking.
+- **Stewardship and migration engineering** cost US$1m to US$2m a year from inflow until a successor is in place, drawn in the order above.
+- **JAM itself.** #573's light JAM cannot run before JAM ships. The JAM Prime paper plans on the end of Q1 2027. Until then Kusama runs today's relay chain with the smaller set, paid as above. If JAM slips a year, that is another year of stewardship cost, not of security cost.
+- **A security review** of the reduced configuration is needed and is not yet priced.
+
+### Who delivers, who pays, what is unverified, what happens if it fails
+
+| Commitment | Who delivers | Who pays | Unverified | If it fails |
+|---|---|---|---|---|
+| A set of about 96 validators | Existing operators, competing for fewer seats | Issuance, through commission. Treasury backstop, capped | That 96 good operators will run for commission | The backstop pays inside its cap. If the set still cannot fill, checkpoint 5 is missed and cohabitation reopens |
+| Runtime maintenance | The Polkadot Fellowship, then a successor | Treasury inflow | That the Fellowship agrees, and that a successor can be recruited | Stewardship is not released. If the Fellowship declines from the start, the independent route has no maintainer and cohabitation should reopen early |
+| Issuance taper | KSM DAO, by referendum | Protocol revenue | That revenue arrives at all | Issuance stays near 7%. Holders who do not stake pay through dilution |
+| Onboarding facility | Curators and collectives, against a published checker | Treasury inflow | Demand at 100,000 members | Paused first when inflow runs short. Bounty 01 tests it at 8 KSM |
+| Revenue route | KSM DAO and Kreivo's collectives, by vote | Buyers outside Kusama | That anyone outside pays | None is assumed here |
+| Treasury reserve | KSM DAO | Not drawn | That inflow continues near 434,000 KSM a year | Spending falls to inflow, in the order above |
+
+The assumption most likely to end the independent route is the Fellowship's agreement, not the price. The price and the timing of revenue change how fast Kusama moves. Losing its maintainers would stop it.
 
 ## What we are asking for
 
 1. **Adopt the direction:** Kusama as the network where groups grow their collective intelligence, with the paper's candidate visions built as its components rather than as separate bets.
 2. **Reaffirm #573** as the route, and treat JAM Prime as a fallback that the checkpoints above can trigger.
 3. **Adopt the treasury rule:** keep the standing balance as a reserve, spend below inflow, and put a rule-bound onboarding facility in place.
-4. **Taper issuance against revenue** rather than cap it, with the schedule published.
+4. **Taper issuance against revenue** rather than cap it, with the schedule published, and pay validator seats by commission with a capped treasury backstop (§9).
 5. **Commission the fellowship call** against Emiel's seven conditions, and keep the Polkadot Fellowship's stewardship until it is met.
 
 We are glad to bring the workings for any figure here. Every one of them can be read from the chain.
 
 ## Appendix A | figures and where they were read
 
-Every figure below was read on 23 September 2026 unless marked otherwise, and each can be checked against the chain.
+Every figure below was read on 23 September 2026 unless marked otherwise (the §9 stress test uses the 1 October readings), and each can be checked against the chain.
 
 | Figure | Value | Source |
 |---|---|---|
@@ -239,8 +332,14 @@ Every figure below was read on 23 September 2026 unless marked otherwise, and ea
 | CS33 attendance root | `0xcc04a401…d686a0` | Remark at Asset Hub block 21,513,860, 17 September 2026, extrinsic `0x0a04550e…80dd` |
 | Birdbrain's graph | Data registry `0x04c4ec8c4d6eaa7982748f3d7b0cc1227ee1cc53` | Asset Hub, deployed at block 20,375,485, 18 August 2026 |
 | Paid queries | Seven settled dUSD payments | Asset Hub, 21 August to 19 September 2026, all between our own keys |
+| Issuance to staking, 1 October | about 1,348,000 KSM a year | 923.6 KSM an era, mean of eras 10090 to 10097, four eras a day. Kusama Asset Hub |
+| Validator commission | Minimum 15%, median 20%, mean 30%. Mean 21% excluding the 78 at 100% | `staking.erasValidatorPrefs`, all 700 validators, era 10098 |
+| Validators' own stake | 0.5% of total backing | `staking.erasStakersOverview`, era 10098 |
+| Staked, 1 October | 8,774,849 KSM | `staking.erasTotalStake`, era 10098 |
+| Kusama treasury, 1 October | 892,057 KSM | Same account, Asset Hub block 22,040,751 |
+| KSM price, 1 October | US$5.16. Twelve-month range US$2.87 to US$15.65 | CoinGecko |
 | Validators for #573 | about 96 | The JAM Prime paper's ratio of 3 validators per core, applied to #573's 32 cores |
 | Security bill for #573 | US$3.46m a year | 96 × US$3,000 a validator-month × 12, the JAM Prime paper's own benchmark |
-| Gap at 2.4% issuance | about US$1.46m a year | US$3.46m less issuance of about US$2.0m |
+| Revenue needed before issuance reaches 2.4% | about US$2.76m a year | US$3.46m less the commission share (30%) of 2.4% issuance, about 454,000 KSM at US$5.16. Earlier editions put this at US$1.46m by counting all issuance as available to operators (§2, §9) |
 
 The US$3,000 benchmark and the 3-validators-per-core ratio are the JAM Prime paper's, used here so the two proposals are priced on the same terms. We do not claim they are the right numbers, only that they are shared ones.
