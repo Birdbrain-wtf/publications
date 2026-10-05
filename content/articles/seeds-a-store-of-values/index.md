@@ -14,13 +14,13 @@ tags:
   - attribution
 status: published
 publicationType: white-paper
-edition: 3.0.0
+edition: 3.1.0
 license: CC-BY-4.0
 ---
 
 # Seeds: A Store of Values
 
-**Read it:** [paper.pdf](paper.pdf) · source [paper.tex](paper.tex) · companion: [the technical specification](../seeds-a-chain-with-one-job/)
+**Read it:** [paper.pdf](paper.pdf) · source [paper.tex](paper.tex) · companion: [the technical specification](../seeds-protocol-specification/)
 
 ## Abstract
 
