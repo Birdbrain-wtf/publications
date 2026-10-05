@@ -1,6 +1,10 @@
-# Changelog | Seeds: A Chain with One Job
+# Changelog | Seeds: Protocol Specification
 
 All notable changes to this publication are recorded here. Released editions are immutable and identified by their Git tag and commit SHA.
+
+## 3.1.0 | 2026-10-05
+
+- Renamed from *Seeds: A Chain with One Job*. The same rules now also run as JAM services, so Seeds is not only a chain, and the title says what the document is. Content unchanged apart from the title. Earlier editions keep their tags under `publication/seeds-a-chain-with-one-job/`.
 
 ## 3.0.0 | 2026-10-05
 
