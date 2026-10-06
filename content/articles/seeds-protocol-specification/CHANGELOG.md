@@ -2,6 +2,13 @@
 
 All notable changes to this publication are recorded here. Released editions are immutable and identified by their Git tag and commit SHA.
 
+## 3.3.0 | 2026-10-06
+
+- *Protocol and profiles* opens with the root-system framing: whatever a profile adds reads who is a member and which points matured, and can write neither. Tasks and rewards, and a group's shared map, are listed among what a profile adds above the chain.
+- New section, *Privacy*: member roots, nullifiers, private ballots and challenges, and what they cost. Not built.
+- The genesis set is called the first members, and founding control is called opening control, matching the runtime.
+- 3.2 was an internal draft and was not published.
+
 ## 3.1.0 | 2026-10-05
 
 - Renamed from *Seeds: A Chain with One Job*. The same rules now also run as JAM services, so Seeds is not only a chain, and the title says what the document is. Content unchanged apart from the title. Earlier editions keep their tags under `publication/seeds-a-chain-with-one-job/`.

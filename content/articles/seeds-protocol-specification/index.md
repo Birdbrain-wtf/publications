@@ -6,7 +6,7 @@ summary: The technical specification. The one application pallet of the Seeds re
 authors:
   - Birdbrain
 published: 2026-10-05
-updated: 2026-10-05
+updated: 2026-10-06
 tags:
   - seeds
   - identity
@@ -14,7 +14,7 @@ tags:
   - attribution
 status: published
 publicationType: technical-specification
-edition: 3.1.0
+edition: 3.3.0
 license: CC-BY-4.0
 ---
 

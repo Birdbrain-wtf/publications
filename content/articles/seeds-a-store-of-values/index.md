@@ -2,11 +2,11 @@
 id: seeds-a-store-of-values
 slug: seeds-a-store-of-values
 title: "Seeds: A Store of Values"
-summary: The white paper. Identity grown from witnessed participation instead of issued by an institution, a record of what each member added, and new units created only when a contribution stands.
+summary: The white paper. Seeds is the root system and the organisations people build are what grows from it. Identity grown from witnessed participation instead of issued by an institution, a record of what each member added, and new units created only when a contribution stands.
 authors:
   - Birdbrain
 published: 2026-10-05
-updated: 2026-10-05
+updated: 2026-10-06
 tags:
   - seeds
   - identity
@@ -14,7 +14,7 @@ tags:
   - attribution
 status: published
 publicationType: white-paper
-edition: 3.1.0
+edition: 3.3.0
 license: CC-BY-4.0
 ---
 
@@ -24,7 +24,7 @@ license: CC-BY-4.0
 
 ## Abstract
 
-Online, a person is either an account that an institution issued or a key that they hold. An account can be closed by whoever issued it, and a key proves only that someone holds it. Neither records what a person has done or who will stand behind them. We propose identity that is grown, not issued. A person arrives by signing in to a meeting their group already holds. The sign-ins become a public attendance record, and a person who keeps turning up alongside the same members becomes a member without anyone filling anything in. The people who were there need act only when the record is wrong. What a member contributes is recorded against them, and it stands unless three members challenge it. Joining brings a vote and no units. New units of the network's record are created only when a contribution stands, so what a member holds is what they have added. There is no treasury, no fee and no administrator. Members write for free, change the rules by one member, one vote, and run the machines that keep the record. A test network has run these rules, and every unit of its supply traced to one of them.
+Online, a person is either an account that an institution issued or a key that they hold. An account can be closed by whoever issued it, and a key proves only that someone holds it. Neither records what a person has done or who will stand behind them. We propose identity that is grown, not issued. A person arrives by signing in to a meeting their group already holds. The sign-ins become a public attendance record, and a person who keeps turning up alongside the same members becomes a member without anyone filling anything in. The people who were there need act only when the record is wrong. What a member contributes is recorded against them, and it stands unless three members challenge it. Joining brings a vote and no units. New units of the network's record are created only when a contribution stands, so what a member holds is what they have added. No name is held on the network, and votes and challenges are designed to be counted without revealing who cast them. There is no treasury, no fee and no administrator. Members write for free, change the rules by one member, one vote, and run the machines that keep the record. A test network has run these rules, and every unit of its supply traced to one of them. Seeds is meant as a root system. The organisations a group goes on to build grow from it and read from it, and none can rewrite it.
 
 ## Code
 
