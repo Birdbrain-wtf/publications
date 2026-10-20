@@ -16,7 +16,7 @@ tags:
   - wish-for-change
 status: published
 publicationType: position-paper
-edition: 1.0.1
+edition: 1.0.2
 license: CC-BY-4.0
 ---
 # An independent Kusama on a reduced JAM, keeping its validators
@@ -32,7 +32,7 @@ We write as stakeholders in Kusama, and for the part of it that has no line on t
 - **Independent validators**, who secure Kusama today and would stop under all four options.
 - **Parachains other than the system chains**, including Kreivo, where our members hold their membership.
 - **Builders on Kusama Asset Hub** whose applications account for more than a quarter of its active addresses.
-- **dUSD**, the only US-dollar stablecoin still issued natively on Kusama. Tether stopped issuing USDt on Kusama in August 2023 and froze what remained on 1 September 2025. Brale issues it, with Decent Partners as its programme partner.
+- **dUSD**, the only US-dollar stablecoin still issued natively on Kusama. Tether stopped issuing USDt on Kusama in August 2023 and froze what remained on 1 September 2025. [Brale](https://brale.xyz) issues it, with [Decent Partners](https://www.decent.partners) as its programme partner.
 
 This group has come to OpenGov in good faith, through treasury proposals and bounties, and has put its own time and money into extending what Kusama can do. It has done so without engagement or support from the bodies that wrote the four options, would fund them or would maintain the result. Our interests in full are in the Disclosures at the end.
 
@@ -57,6 +57,8 @@ The four options also leave open who would hold Kusama's side of the deal. The p
 An independent Kusama is the one line whose protections KSM holders would enforce themselves. That is why it needs to be a credible, priced offer and not a protest vote.
 
 A steward needs legal standing of its own, or it is only as accountable as whoever signs for it. Birdbrain is giving itself that standing onshore and in its members' hands: a Wyoming nonprofit association, first as a plain Unincorporated Nonprofit Association and then as a Decentralized one (a DUNA) once it has the hundred members the law requires. Its members would be its voters. It is the opposite shape to the PCF, a Cayman foundation run by directors.
+
+It also keeps the direction Kusama's own community has been asking for. Privacy, self-custody and private payments are already the tools we build with: passkeys kept on people's own devices, a zero-knowledge claim written in Noir, shielded payments and a members' exchange on Decred's DEX software, each on test networks or better and each stating its limits (Section 6).
 
 The fifth option is also the start of something larger. Once Birdbrain's membership is a credible association of infrastructure partners with a fully costed plan, KSM holders who want a different path can delegate their votes to it, and by stake-weighted vote that path could be enacted, keeping Kusama's chaos going.
 
@@ -256,6 +258,22 @@ Validators, nominators, parachain teams and JAM client teams are invited to join
 
 **One tool for the people who run the network.** Murmur is the open app underneath, and the Birdbrain app is its edition for this collective. We are building it into one place where Kusama's operators and contributors sign in with their own key, meet, talk, keep their notes and records, pay and get paid on Asset Hub, and take part in the steward's decisions. One app holds several collectives, so a validator's own group and Birdbrain sit side by side in the same window. The validator dashboard, the cost survey and the steward's proposals are meant to live there too. Those parts are not built yet.
 
+### Privacy, self-custody and Kusama's cypherpunk roots
+
+Kusama's Governance Coordinator, asking where Kusama goes from here, [reported](https://forum.polkadot.network/t/where-does-kusama-go-from-here/18765/9) that after talking with many people the likeliest directions are "privacy tools, private payments, censorship-resistant communication, ZK applications, digital freedom and all cypherpunk values". An independent Kusama is the version of that direction KSM holders would own end to end. This is what we already run or test towards it, and how far each part has got.
+
+| Piece | What it does | State, 20 October 2026 |
+| --- | --- | --- |
+| Self-custody passkeys, through [Virto](https://github.com/virto-network)'s VOS | A member's key is made and kept on their own device. Our server answers the VOS calls Virto's software expects and pays the one transaction that registers the passkey on Kreivo. It never holds the key. No seed phrase, no custodian | Live on Kusama mainnet as the default way to join community 1786 |
+| Private claims, written in [Noir](https://noir-lang.org) | A contributor proves they were in a session's committed contributor set and takes their share. The payer learns a share band and a one-time marker, never a name or which lines they spoke. Attendance records on Asset Hub carry a hash of each person, not their name | Works end to end over a real session, proved with Barretenberg, with attacks such as a replayed proof or a redirected payout rejected by test. Test payouts settled on a test network. Not yet public, and its root is not yet anchored on chain |
+| Shielded payments, in the app | Pays into [Kusama Shield](https://shield.markets)'s pool on Asset Hub and takes the money out at a fresh account, so the two halves of a payment are not joined on the chain. The pool is Kusama Shield's, not ours. What we add is the screen, notes drawn from the member's own recovery words, and a count of how many deposits a withdrawal actually hides among | Test plugin, test networks only. Its audit is funded by [#667](https://kusama.subsquare.io/referenda/667) and not yet done, and we have shared our review with its authors privately |
+| A members' exchange, on Decred's DEX | Decred's own exchange software with a new Kusama Asset Hub driver, so two members trade KSM and dUSD by atomic swap between their own wallets. The matcher never holds anyone's key or funds | Works end to end on a public test market. The driver is offered upstream to Decred as a [draft pull request](https://github.com/decred/dcrdex/pull/3634). No mainnet market before we have a UK regulatory read |
+| Private messages, on SimpleX | One-to-one chats in the app run over [SimpleX](https://simplex.chat), end-to-end encrypted and kept only on the two people's computers, through a relay each collective runs for itself | In the app today. Group chat is not yet end-to-end encrypted |
+
+Three things hold this together. **Keys stay with people:** every piece above signs on the member's own device. **The chain records commitments, not people:** what lands on Asset Hub is a root or a hash, and the private detail stays with the person it belongs to. **Every piece states its own limits:** a shielded pool with few deposits hides a payment among few others, and a claim on one small session hides its contributor among very few people. Privacy here comes from a crowd that grows, which is one more reason the network needs its own users and not only its own validators.
+
+What is not done yet. The Noir verifier runs off chain today, so the pool that pays a claim is trusted to check the proof. The route to checking it on Kusama itself is the [PolkaVM Noir verifier](https://github.com/zkemail/polkavm-noir-verifier), which RustSyndicate has [benchmarked](https://forum.polkadot.network/t/where-does-kusama-go-from-here/18765/7). The circuit is due to be published in [Seeds](https://github.com/Birdbrain-wtf/seeds) with its root fixed on Asset Hub beside the attendance root. None of this is audited. On an independent Kusama these become the steward's first public work, built with the teams already working on them rather than alongside them.
+
 **What we cannot yet do.** Birdbrain cannot maintain Kusama's runtime alone today. Nothing we have built is audited, and Jambo is lab code. The steward needs, at minimum, two independent JAM client teams, experienced Kusama validators and runtime engineers. This referendum is how we ask them to join, and how KSM holders tell them there is a mandate worth joining.
 
 ### The ambition: a steward KSM holders can delegate to
@@ -301,7 +319,7 @@ Joining is itself a demonstration. You sign in with a passkey your own device ho
 
 Decent Partners supports Birdbrain and funds its members' deposits on Kreivo.
 
-It has a commercial interest in KSM as well as dUSD through its arrangements with Brale, is an investor in Bloque, the largest operator of active accounts on Asset Hub, and holds about 7.17 million KAB, the token of the Kabocha parachain on Kusama whose origins trace back to Edgeware, an early experiment in on-chain governance. Kabocha's initial supply mirrored Edgeware's holders, and the Web3 Foundation is among its major stakeholders: on our reading of the genesis snapshot it holds an estimated 5 million KAB, about 6.5% of supply, which would make it one of the largest holders alongside Decent Partners. No on-chain account is yet labelled as the Web3 Foundation's, so we give the figure as an estimate and will correct it on request.
+It has a commercial interest in KSM as well as dUSD through its arrangements with Brale, is an investor in [Bloque](https://www.bloque.app), the largest operator of active accounts on Asset Hub, and holds about 7.17 million KAB, the token of the Kabocha parachain on Kusama whose origins trace back to Edgeware, an early experiment in on-chain governance. Kabocha's initial supply mirrored Edgeware's holders, and the Web3 Foundation is among its major stakeholders: on our reading of the genesis snapshot it holds an estimated 5 million KAB, about 6.5% of supply, which would make it one of the largest holders alongside Decent Partners. No on-chain account is yet labelled as the Web3 Foundation's, so we give the figure as an estimate and will correct it on request.
 
 Decent Partners also has an open position with the Kusama treasury. [Referendum #474](https://kusama.subsquare.io/referenda/474), which it proposed, provided 9,706 KSM in December 2024 for a KSM:dUSD liquidity pool on Asset Hub, with Brale supplying the dUSD side. On 27 May 2025 ([block #9,446,924](https://assethub-kusama.subscan.io/block/9446924)) 99% of the liquidity was withdrawn and 8,198.99 KSM moved to an account of Decent Partners, after discussion with community members. The reasons were given on [#526](https://kusama.subsquare.io/referenda/526) two days later: dUSD on and off ramps were not yet built, and the pool risked being drained before #526 was decided. #526 was then rejected. The withdrawn KSM is held off-chain by Decent Partners, about 101 KSM and 954 dUSD remain in the pool, and we treat the full 9,706 KSM as owed to the Kusama treasury in KSM. Nothing in this paper changes that.
 
@@ -318,6 +336,8 @@ AI tools were used in research and drafting. Every figure can be read from the c
 - [A Proposal for a Kusama Future on JAM Prime](https://forum.polkadot.network/t/a-proposal-for-a-kusama-future-on-jam-prime/18683) (the earlier paper, source of the US$3,000 benchmark)
 - [Adapting Kusama to demand and its JAM future](https://forum.polkadot.network/t/proposal-discussion-adapting-kusama-to-demand-and-its-jam-future/17141) (Daniel Olano's staged plan behind #573 and #655)
 - [An Independent Kusama](https://github.com/Birdbrain-wtf/publications/tree/main/content/articles/independent-kusama) (our earlier paper)
+- [Where Does Kusama Go From Here?](https://forum.polkadot.network/t/where-does-kusama-go-from-here/18765/9) (the Governance Coordinator's summary, naming privacy and cypherpunk values as the likeliest direction) and [RustSyndicate's PolkaVM Noir verifier benchmarks](https://forum.polkadot.network/t/where-does-kusama-go-from-here/18765/7)
+- [Noir](https://noir-lang.org), [Kusama Shield](https://shield.markets) and its funded audit, [#667](https://kusama.subsquare.io/referenda/667), and the [Asset Hub driver offered to Decred's DEX](https://github.com/decred/dcrdex/pull/3634)
 - Polkadot: [referendum 1954](https://polkadot.subsquare.io/referenda/1954) and [its proposal](https://forum.polkadot.network/t/a-unified-strategy-for-polkadot-alignment-on-value-capturing-goals-for-polkadot-s-product-platform-and-the-dotdao/18999), [Appointment of DOT Directors](https://forum.polkadot.network/t/appointment-of-dot-directors/16006) (the PCF bylaws brief and thread), [The changing shape of Polkadot](https://github.com/Birdbrain-wtf/publications/blob/5fef3d0d67f3dfb1b4cb27f0af26e3d212f1f0ed/content/articles/polkadot-changing-shape/index.md) (our review of the PCF's role, with the referenda register)
 - Birdbrain's origin: [#506, Establish Birdbrain as Kusama's on-chain innovation agency](https://kusama.subsquare.io/referenda/506) (timed out, March 2025), [#498, A New Kusama Vision](https://kusama.subsquare.io/referenda/498) (executed, March 2025)
 - Our treasury record: [referendum #665](https://kusama.subsquare.io/referenda/665) (the membership bounty, rejected), [RFC 001, Should Kusama spend its treasury onboarding members instead of selling KSM?](https://birdbrain.wtf/rfc/rfc-001-treasury-as-onboarding-subsidy), [the attendance checker](https://github.com/Birdbrain-wtf/attendance-checker)
