@@ -16,7 +16,7 @@ tags:
   - wish-for-change
 status: published
 publicationType: position-paper
-edition: 1.0.0
+edition: 1.0.1
 license: CC-BY-4.0
 ---
 # An independent Kusama on a reduced JAM, keeping its validators
@@ -44,7 +44,7 @@ All four end Kusama's own validator set and retire staking.
 
 KSM holders have already voted on this question. [Referendum #573](https://kusama.subsquare.io/referenda/573), "Kusama JAM Upgrade: Option A - Lightweight and independent", passed on 21 August 2025. It asked for a smaller Kusama running its own JAM network, with its own validators and KSM as its native token. Each of the four new referenda says it would supersede #573 if selected. None puts #573 itself on the ballot beside them.
 
-We are proposing a fifth referendum on the same track and in the same voting window, that continues #573: **an independent Kusama, keeping its own validators on a reduced JAM, is scoped, priced and specified, and debated beside JAM Prime before Kusama's validators are retired.**
+We are proposing a fifth referendum, [#676](https://kusama.subsquare.io/referenda/676), on the same track and in the same voting window, that continues #573: **an independent Kusama, keeping its own validators on a reduced JAM, is scoped, priced and specified, and debated beside JAM Prime before Kusama's validators are retired.**
 
 The four options come with a price. Independence has never been given one. Nobody has asked Kusama's validators what it costs them to run a seat, and nobody has written down what a reduced JAM of Kusama's own would need. The fifth option asks for that work to be done in the open, with the people who run the network, so KSM holders can compare two priced directions instead of one priced direction and a blank.
 
