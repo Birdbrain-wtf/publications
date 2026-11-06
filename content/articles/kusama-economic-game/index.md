@@ -15,6 +15,7 @@ tags:
   - jam
 status: published
 publicationType: research-note
+series: kusama-future
 edition: 0.1.0
 license: CC-BY-4.0
 responds_to: https://forum.polkadot.network/t/a-proposal-for-a-kusama-future-on-jam-prime/18683/26

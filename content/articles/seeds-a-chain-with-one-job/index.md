@@ -1,3 +1,12 @@
+---
+id: seeds-a-chain-with-one-job
+slug: seeds-a-chain-with-one-job
+title: "Seeds: A Chain with One Job"
+status: moved
+moved_to: seeds-protocol-specification
+series: seeds
+---
+
 # Seeds: A Chain with One Job
 
 Renamed **Seeds: Protocol Specification** from edition 3.1.0. It is now at [`../seeds-protocol-specification/`](../seeds-protocol-specification/).

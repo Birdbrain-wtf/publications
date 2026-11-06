@@ -15,6 +15,7 @@ tags:
   - jam
 status: published
 publicationType: position-paper
+series: kusama-future
 edition: 0.2.0
 license: CC-BY-4.0
 responds_to: https://github.com/sdfinst/publications/blob/a445bba7ab5a801e3b85168551dfa8b1e5021bc2/content/articles/proposal-kusama-future-jam-prime/index.md

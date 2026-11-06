@@ -14,6 +14,7 @@ tags:
   - attribution
 status: published
 publicationType: technical-specification
+series: seeds
 edition: 3.3.0
 license: CC-BY-4.0
 ---

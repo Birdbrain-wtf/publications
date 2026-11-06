@@ -16,6 +16,7 @@ tags:
   - wish-for-change
 status: published
 publicationType: position-paper
+series: kusama-future
 edition: 1.0.2
 license: CC-BY-4.0
 ---
