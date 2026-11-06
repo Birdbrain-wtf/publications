@@ -16,12 +16,13 @@ tags:
   - narrative
 status: draft
 publicationType: reference
-edition: 0.1.0
+edition: 0.1.1
 license: CC-BY-4.0
 related:
   - https://palalabs.org/philosophy
   - https://medium.com/polkadot-network/dot-daoism-under-jam-an-island-story-efe0d02ee084
   - https://www.huxley.net/island/aldoushuxley-island.pdf
+  - https://www.youtube.com/watch?v=9JlKg57GPgM
 ---
 # Pala: a specification
 
@@ -37,7 +38,11 @@ Gavin Wood's [DOT DAOism under JAM: An Island Story](https://medium.com/polkadot
 
 The island now appears in how the ecosystem describes itself, so we wrote down the society Huxley describes, in the form of a specification. It sets out what the book says and makes no comparison with Polkadot or JAM. It is for our own reference and for anyone else who wants the source to hand.
 
-Every statement below is taken from the novel, and most are given by its characters. Page numbers refer to the [online text at huxley.net](https://www.huxley.net/island/aldoushuxley-island.pdf) and may differ from printed editions.
+The novel is also worth reading for itself. A specification keeps the rules and loses the conversations, the characters and the ending, which is where much of the book's argument actually happens.
+
+Part of the work in building anything with other people is understanding the stories they reach for, because people reason and explain largely by analogy. Geoffrey Hinton has said that his first tiny language model "wasn't designed to do NLP, natural language processing, it was designed to show how people could learn the meanings of words, so it's a model of people" ([Valence, 2024, at 3:26](https://www.youtube.com/watch?v=9JlKg57GPgM&t=206s)). Later in the same conversation he says that "it's much easier to store things in weights if they're kind of analogous structures", and that large language models "are just the same" ([at 11:13](https://www.youtube.com/watch?v=9JlKg57GPgM&t=673s)). An analogy brings the shape of its story with it, so it helps to know the story.
+
+Every statement in the numbered sections is taken from the novel, and most are given by its characters. Page numbers refer to the [online text at huxley.net](https://www.huxley.net/island/aldoushuxley-island.pdf) and may differ from printed editions.
 
 ## 1. Objective
 
@@ -135,4 +140,4 @@ A search of the full text found no account of:
 
 Section 9 rests on searching the full text for terms such as amend, vote, legislation and the names of the governing bodies, alongside a reading of the economic and political passages and the ending. It was not a reading of every chapter, so an unusually worded passage could have been missed. Corrections are welcome as issues on this repository.
 
-Birdbrain is a collective on Kreivo, a Kusama parachain, supported by [Decent Partners](https://www.decent.partners). AI tools were used to search the text and to assist with drafting. We take responsibility for the selection and the transcription.
+Birdbrain is a collective on Kreivo, a Kusama parachain, supported by [Decent Partners](https://www.decent.partners). AI tools were used to search the text and to assist with drafting. The Hinton quotations are transcribed from the video's automatic captions. We take responsibility for the selection and the transcription.
